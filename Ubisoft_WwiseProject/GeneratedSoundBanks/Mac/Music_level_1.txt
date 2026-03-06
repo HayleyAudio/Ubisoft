@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3099668085	Play_rRANDOM_MUSIC			\Default Work Unit\Play_rRANDOM_MUSIC	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	229830896	HC_Cello_Vibrato_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\86\{8614BEDB-1AE3-0114-79A6-D6A3DD869AE2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\HC_Cello_Vibrato_01		941480
+	233061494	emergence_3	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E4\{E4243DB5-87B0-E624-97C1-218DC51215A3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\emergence_3		1775612
+	280964769	emergence_4	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\32\{320E019B-5927-7E63-D0C0-78F0B8AB0876}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\emergence_4		1089504
+	305183222	drone_4	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\1E\{1E18E509-8BE7-FB26-ACA5-191CDAC92D31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\drone_4		2524940
+	327922830	emergence_1	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\97\{978CD5F6-1BCE-288E-A09C-5ABF20E5471E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\emergence_1		891216
+	460060070	drone_3	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\9B\{9B69E363-CB7C-8BF9-F44E-9C17F38A56DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\drone_3		1666824
+	565427302	drone_2	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\08\{08C04A15-7915-FDB1-8976-FBB78D9548DA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\drone_2		1543056
+	571916282	filterBack_4	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\44\{44D2FBC3-728B-0859-B575-C73F40A57FC0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\filterBack_4		1197864
+	598919517	filterBack_3	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\FF\{FF705E37-CE81-52A4-7148-37334106BF44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\filterBack_3		1757404
+	646499897	drone_1	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\57\{574AEF08-8CE5-8BCC-D59B-FFD7D4009AFD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\drone_1		1204760
+	813680137	cello vibrato	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\A0\{A0F928D9-B48F-C3B1-AB3E-B550C89B8258}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\cello vibrato		1303316
+	880865838	filterBack_1	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\B0\{B0204AAB-5763-2F4A-ABBC-BEA016F88D5B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\filterBack_1		1340448
+	958853560	emergence_2	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\71\{71D7E9BF-F470-65E6-3C17-14C78C26D6FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\emergence_2		1950488
+	1041630933	filterBack_2	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\13\{13DD534E-69F5-5F66-E56B-A76E5697B5AA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\rRANDOM MUSIC\random\filterBack_2		1981232
+

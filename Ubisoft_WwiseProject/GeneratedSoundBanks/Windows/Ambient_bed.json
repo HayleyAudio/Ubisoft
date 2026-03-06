@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3417108331",
+    "Type": "User",
+    "GUID": "{A42536C7-5B89-4A56-996A-8088D03E4A65}",
+    "Language": "SFX",
+    "Hash": "{E415B2A6-1E30-790D-E609-2836C7AA3E0D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\Ambient_bed",
+    "ShortName": "Ambient_bed",
+    "Path": "Ambient_bed.bnk",
+    "Media": [
+     {
+      "Id": "933120181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_AI_7.wav",
+      "CachePath": "4C/{4CA25D12-C1CA-E294-A43D-E060E1CCF468}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "765412309",
+      "Name": "Play_General_ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_General_ambience",
+      "GUID": "{4F0D5E3F-E586-4F16-BB1E-F4309BBE9BF9}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "933120181"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5F0C3C16-5AD1-E18E-C223-CAE4EF654B29}"
+ }
+}

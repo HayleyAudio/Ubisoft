@@ -1,0 +1,207 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3508274217",
+    "Type": "User",
+    "GUID": "{630E235F-E38D-4CF8-8423-8D4B1D6CE0A7}",
+    "Language": "SFX",
+    "Hash": "{7168CD97-574A-416B-96F7-D8F87C3374CA}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music\\Music_level_1",
+    "ShortName": "Music_level_1",
+    "Path": "Music_level_1.bnk",
+    "Media": [
+     {
+      "Id": "229830896",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_Cello_Vibrato_01.wav",
+      "CachePath": "86/{8614BEDB-1AE3-0114-79A6-D6A3DD869AE2}.wem"
+     },
+     {
+      "Id": "233061494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "emergence_3.wav",
+      "CachePath": "E4/{E4243DB5-87B0-E624-97C1-218DC51215A3}.wem"
+     },
+     {
+      "Id": "280964769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "emergence_4.wav",
+      "CachePath": "32/{320E019B-5927-7E63-D0C0-78F0B8AB0876}.wem"
+     },
+     {
+      "Id": "305183222",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drone_4.wav",
+      "CachePath": "1E/{1E18E509-8BE7-FB26-ACA5-191CDAC92D31}.wem"
+     },
+     {
+      "Id": "327922830",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "emergence_1.wav",
+      "CachePath": "97/{978CD5F6-1BCE-288E-A09C-5ABF20E5471E}.wem"
+     },
+     {
+      "Id": "460060070",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drone_3.wav",
+      "CachePath": "9B/{9B69E363-CB7C-8BF9-F44E-9C17F38A56DC}.wem"
+     },
+     {
+      "Id": "565427302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drone_2.wav",
+      "CachePath": "08/{08C04A15-7915-FDB1-8976-FBB78D9548DA}.wem"
+     },
+     {
+      "Id": "571916282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "filterBack_4.wav",
+      "CachePath": "44/{44D2FBC3-728B-0859-B575-C73F40A57FC0}.wem"
+     },
+     {
+      "Id": "598919517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "filterBack_3.wav",
+      "CachePath": "FF/{FF705E37-CE81-52A4-7148-37334106BF44}.wem"
+     },
+     {
+      "Id": "646499897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "drone_1.wav",
+      "CachePath": "57/{574AEF08-8CE5-8BCC-D59B-FFD7D4009AFD}.wem"
+     },
+     {
+      "Id": "813680137",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "cello vibrato.wav",
+      "CachePath": "A0/{A0F928D9-B48F-C3B1-AB3E-B550C89B8258}.wem"
+     },
+     {
+      "Id": "880865838",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "filterBack_1.wav",
+      "CachePath": "B0/{B0204AAB-5763-2F4A-ABBC-BEA016F88D5B}.wem"
+     },
+     {
+      "Id": "958853560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "emergence_2.wav",
+      "CachePath": "71/{71D7E9BF-F470-65E6-3C17-14C78C26D6FF}.wem"
+     },
+     {
+      "Id": "1041630933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "filterBack_2.wav",
+      "CachePath": "13/{13DD534E-69F5-5F66-E56B-A76E5697B5AA}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3099668085",
+      "Name": "Play_rRANDOM_MUSIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_rRANDOM_MUSIC",
+      "GUID": "{E405B189-A311-466A-BFB5-51F7EFAB26B7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "229830896"
+       },
+       {
+        "Id": "233061494"
+       },
+       {
+        "Id": "280964769"
+       },
+       {
+        "Id": "305183222"
+       },
+       {
+        "Id": "327922830"
+       },
+       {
+        "Id": "460060070"
+       },
+       {
+        "Id": "565427302"
+       },
+       {
+        "Id": "571916282"
+       },
+       {
+        "Id": "598919517"
+       },
+       {
+        "Id": "646499897"
+       },
+       {
+        "Id": "813680137"
+       },
+       {
+        "Id": "880865838"
+       },
+       {
+        "Id": "958853560"
+       },
+       {
+        "Id": "1041630933"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3164629247"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7C6EF54F-01D0-707E-3A37-92BE34DC4261}"
+ }
+}

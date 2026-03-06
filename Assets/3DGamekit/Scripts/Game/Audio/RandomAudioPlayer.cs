@@ -1,21 +1,25 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
-
+using AK.Wwise;
 
 namespace Gamekit3D
 {
     [RequireComponent(typeof(AudioSource))]
     public class RandomAudioPlayer : MonoBehaviour
     {
-        [Serializable]
-        public class MaterialAudioOverride
-        {
-            public Material[] materials;
-            public SoundBank[] banks;
-        }
+        // =============================
+        // AUDIO BACKEND CONTROL
+        // =============================
+
+        [Header("Audio Backend")]
+        [Tooltip("If true, Wwise will be used instead of Unity AudioSource.")]
+        public bool useWwise = false;
+
+        // =============================
+        // UNITY AUDIO STRUCTURES
+        // =============================
 
         [Serializable]
         public class SoundBank
@@ -24,78 +28,203 @@ namespace Gamekit3D
             public AudioClip[] clips;
         }
 
+        [Serializable]
+        public class MaterialAudioOverride
+        {
+            public Material[] materials;
+
+            [Header("Unity Audio")]
+            public SoundBank[] banks;
+
+            [Header("Wwise Audio")]
+            public AK.Wwise.Event[] wwiseEvents;
+            public AK.Wwise.Switch wwiseSwitch;
+        }
+
+        [Header("Unity Audio Settings")]
         public bool randomizePitch = true;
         public float pitchRandomRange = 0.2f;
         public float playDelay = 0;
         public SoundBank defaultBank = new SoundBank();
-        public MaterialAudioOverride[] overrides;
 
-        [HideInInspector]
-        public bool playing;
-        [HideInInspector]
-        public bool canPlay;
+        [Header("Wwise Default Settings")]
+        public AK.Wwise.Event[] defaultWwiseEvents;
+        public AK.Wwise.Switch defaultSwitch;
 
-        protected AudioSource m_Audiosource;
-        protected Dictionary<Material, SoundBank[]> m_Lookup = new Dictionary<Material, SoundBank[]>();
+        [Header("Material Overrides")]
+        public MaterialAudioOverride[] materialOverrides;
 
-        public AudioSource audioSource { get { return m_Audiosource; } }
+        [Header("Debug")]
+        public bool debug = false;
 
+        [HideInInspector] public bool playing;
+        [HideInInspector] public bool canPlay;
+
+        protected AudioSource m_AudioSource;
+
+        protected Dictionary<Material, SoundBank[]> m_UnityLookup =
+            new Dictionary<Material, SoundBank[]>();
+
+        protected Dictionary<Material, AK.Wwise.Event[]> m_WwiseEventLookup =
+            new Dictionary<Material, AK.Wwise.Event[]>();
+
+        protected Dictionary<Material, AK.Wwise.Switch> m_WwiseSwitchLookup =
+            new Dictionary<Material, AK.Wwise.Switch>();
+
+        public AudioSource audioSource => m_AudioSource;
         public AudioClip clip { get; private set; }
+
+        // =============================
+        // INITIALIZATION
+        // =============================
 
         void Awake()
         {
-            m_Audiosource = GetComponent<AudioSource>();
-            for (int i = 0; i < overrides.Length; i++)
+            m_AudioSource = GetComponent<AudioSource>();
+
+            BuildMaterialLookups();
+
+            // If using Wwise, disable AudioSource to avoid double playback
+            if (useWwise && m_AudioSource != null)
+                m_AudioSource.enabled = false;
+        }
+
+        void BuildMaterialLookups()
+        {
+            foreach (var entry in materialOverrides)
             {
-                foreach (var material in overrides[i].materials)
-                    m_Lookup[material] = overrides[i].banks;
+                if (entry.materials == null) continue;
+
+                foreach (var mat in entry.materials)
+                {
+                    if (mat == null) continue;
+
+                    if (entry.banks != null && entry.banks.Length > 0)
+                        m_UnityLookup[mat] = entry.banks;
+
+                    if (entry.wwiseEvents != null && entry.wwiseEvents.Length > 0)
+                        m_WwiseEventLookup[mat] = entry.wwiseEvents;
+
+                    if (entry.wwiseSwitch != null)
+                        m_WwiseSwitchLookup[mat] = entry.wwiseSwitch;
+                }
             }
         }
 
-        /// <summary>
-        /// Will pick a random clip to play in the assigned list. If you pass a material, it will try to find an
-        /// override for that materials or play the default clip if none can ben found.
-        /// </summary>
-        /// <param name="overrideMaterial"></param>
-        /// <returns> Return the choosen audio clip, null if none </returns>
-        public AudioClip PlayRandomClip(Material overrideMaterial, int bankId = 0)
-        {
-#if UNITY_EDITOR
-            //UnityEditor.EditorGUIUtility.PingObject(overrideMaterial);
-#endif
-            if (overrideMaterial == null) return null;
-            return InternalPlayRandomClip(overrideMaterial, bankId);
-        }
+        // ============================================================
+        // PUBLIC PLAY FUNCTIONS (Game Kit calls these everywhere)
+        // ============================================================
 
-        /// <summary>
-        /// Will pick a random clip to play in the assigned list.
-        /// </summary>
         public void PlayRandomClip()
         {
-            clip = InternalPlayRandomClip(null, bankId: 0);
+            PlayRandomClip(null, 0);
         }
 
-        AudioClip InternalPlayRandomClip(Material overrideMaterial, int bankId)
+        public AudioClip PlayRandomClip(Material overrideMaterial, int bankId = 0)
         {
-            SoundBank[] banks = null;
-            var bank = defaultBank;
-            if (overrideMaterial != null)
-                if (m_Lookup.TryGetValue(overrideMaterial, out banks))
-                    if (bankId < banks.Length)
-                        bank = banks[bankId];
+            if (useWwise)
+            {
+                PlayWwise(overrideMaterial, bankId, gameObject);
+                return null;
+            }
+
+            return PlayUnity(overrideMaterial, bankId);
+        }
+
+        // ============================================================
+        // UNITY BACKEND
+        // ============================================================
+
+        private AudioClip PlayUnity(Material overrideMaterial, int bankId)
+        {
+            SoundBank bank = defaultBank;
+
+            if (overrideMaterial != null &&
+                m_UnityLookup.TryGetValue(overrideMaterial, out var banks))
+            {
+                if (bankId >= 0 && bankId < banks.Length)
+                    bank = banks[bankId];
+            }
+
             if (bank.clips == null || bank.clips.Length == 0)
                 return null;
-            var clip = bank.clips[Random.Range(0, bank.clips.Length)];
 
-            if (clip == null)
+            var chosenClip = bank.clips[Random.Range(0, bank.clips.Length)];
+            if (chosenClip == null)
                 return null;
 
-            m_Audiosource.pitch = randomizePitch ? Random.Range(1.0f - pitchRandomRange, 1.0f + pitchRandomRange) : 1.0f;
-            m_Audiosource.clip = clip;
-            m_Audiosource.PlayDelayed(playDelay);
+            if (m_AudioSource == null)
+                return null;
 
-            return clip;
+            m_AudioSource.pitch = randomizePitch
+                ? Random.Range(1f - pitchRandomRange, 1f + pitchRandomRange)
+                : 1f;
+
+            m_AudioSource.clip = chosenClip;
+            m_AudioSource.PlayDelayed(playDelay);
+
+            clip = chosenClip;
+
+            if (debug)
+                Debug.Log($"{name} playing Unity clip: {chosenClip.name}");
+
+            return chosenClip;
         }
 
+        // ============================================================
+        // WWISE BACKEND
+        // ============================================================
+
+        private void PlayWwise(Material overrideMaterial, int bankId, GameObject target)
+        {
+            AK.Wwise.Event[] eventsToUse = defaultWwiseEvents;
+            AK.Wwise.Switch switchToUse = defaultSwitch;
+
+            if (overrideMaterial != null)
+            {
+                if (m_WwiseEventLookup.TryGetValue(overrideMaterial, out var matEvents))
+                    eventsToUse = matEvents;
+
+                if (m_WwiseSwitchLookup.TryGetValue(overrideMaterial, out var matSwitch))
+                    switchToUse = matSwitch;
+            }
+
+            if (eventsToUse == null || eventsToUse.Length == 0)
+            {
+                if (debug)
+                    Debug.LogWarning($"{name}: No Wwise events assigned.");
+                return;
+            }
+
+            if (bankId < 0 || bankId >= eventsToUse.Length)
+                bankId = 0;
+
+            if (switchToUse != null)
+                switchToUse.SetValue(target);
+
+            eventsToUse[bankId].Post(target);
+
+            if (debug)
+                Debug.Log($"{name} posted Wwise event: {eventsToUse[bankId].Name}");
+        }
+
+        // ============================================================
+        // OPTIONAL EXPLICIT WWISE CALLS
+        // ============================================================
+
+        public void WwiseEventPlay(int bankId)
+        {
+            PlayWwise(null, bankId, gameObject);
+        }
+
+        public void WwiseEventPlay(Material mat, int bankId)
+        {
+            PlayWwise(mat, bankId, gameObject);
+        }
+
+        public void WwiseEventPlay(GameObject target)
+        {
+            PlayWwise(null, 0, target);
+        }
     }
 }

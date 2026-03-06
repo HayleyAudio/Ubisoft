@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	74052169	Play_staff_pedestal_magic			\Default Work Unit\Play_staff_pedestal_magic	
+	2847601794	Play_Huge_door			\Default Work Unit\Play_Huge_door	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	232749425	huge_door-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\53\{53D8C586-8352-CDDB-B374-158DCFF0523D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-001		567664
+	345108622	Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\DF\{DF36458E-1E41-424B-606D-88B42BED836B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Magic\Staff_pedstal\staff_pedestal_magic\magic_blend\Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473_01		4554072
+	730268273	huge_door-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\0B\{0B52BFF3-8C8F-13B4-C263-455BC01C76DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-003		1907528
+	975828155	huge_door-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\37\{375CA8FB-CCED-FEDC-C5EA-4B7BB90F17F4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-002		1093772
+

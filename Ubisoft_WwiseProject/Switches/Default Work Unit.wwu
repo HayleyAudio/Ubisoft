@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0CB4276C-696D-41F3-BF26-3908F73D4B2D}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{0CB4276C-696D-41F3-BF26-3908F73D4B2D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0CB4276C-696D-41F3-BF26-3908F73D4B2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Terrain" ID="{2FD9EBA4-20B9-4E92-9BB8-4411B55BA26B}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{E9161E1C-DC1B-4DF4-ACFE-4F7170F4842B}"/>
+						<Switch Name="Dirt" ID="{FA8ABAAC-F669-46FF-AF7E-A75ACC9138E4}"/>
+						<Switch Name="Gravel" ID="{D52DF775-890B-496A-BD5A-824DD44641A0}"/>
+						<Switch Name="Metal" ID="{0EA59F01-3A48-4C78-8CC9-FA51777FA087}"/>
+						<Switch Name="Wood" ID="{62E90B19-CD20-457E-AB31-0E19B5B4BDBC}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1848894379",
+    "Type": "User",
+    "GUID": "{FB6D7DE7-C024-4C97-8F56-BF9864FDA73C}",
+    "Language": "SFX",
+    "Hash": "{A40EB074-7A89-AA48-5285-91C73C9C2D99}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Enviroment\\Special_objects",
+    "ShortName": "Special_objects",
+    "Path": "Special_objects.bnk",
+    "Media": [
+     {
+      "Id": "232749425",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "huge_door-001.wav",
+      "CachePath": "53/{53D8C586-8352-CDDB-B374-158DCFF0523D}.wem"
+     },
+     {
+      "Id": "345108622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473.wav",
+      "CachePath": "DF/{DF36458E-1E41-424B-606D-88B42BED836B}.wem"
+     },
+     {
+      "Id": "730268273",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "huge_door-003.wav",
+      "CachePath": "0B/{0B52BFF3-8C8F-13B4-C263-455BC01C76DC}.wem"
+     },
+     {
+      "Id": "975828155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "huge_door-002.wav",
+      "CachePath": "37/{375CA8FB-CCED-FEDC-C5EA-4B7BB90F17F4}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2847601794",
+      "Name": "Play_Huge_door",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Huge_door",
+      "GUID": "{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.934542",
+      "DurationMax": "9.934542",
+      "MediaRefs": [
+       {
+        "Id": "232749425"
+       },
+       {
+        "Id": "730268273"
+       },
+       {
+        "Id": "975828155"
+       }
+      ]
+     },
+     {
+      "Id": "74052169",
+      "Name": "Play_staff_pedestal_magic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_staff_pedestal_magic",
+      "GUID": "{940C4E04-7B69-4BD8-826B-5B024E60F2D6}",
+      "MaxAttenuation": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "345108622"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{02F9D9E2-F729-CDB0-2BF3-E7C5748E0FDC}"
+ }
+}

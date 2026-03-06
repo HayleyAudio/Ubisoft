@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0C08867F-10B0-4A23-9772-0A0EE0603E10}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{0C08867F-10B0-4A23-9772-0A0EE0603E10}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0C08867F-10B0-4A23-9772-0A0EE0603E10}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Soundbank" ID="{3901913F-3738-4651-89B3-E2D2A1A8D0F7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Death" ID="{29E26370-DE93-44FD-B27B-727820D37D8C}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_test" ID="{6E579BAF-2590-485B-B508-4FAB9485A3DB}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_destroyed" ID="{B462F71D-F3EA-4A46-B2B5-4E628D5A0E20}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FTS" ID="{E727F2A6-69A5-4A71-9085-689A0992F44F}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Staff_Swing" ID="{9A7431B0-5D53-4AA3-8DC7-ACC9BFB32D7B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Staff_Hit" ID="{8361F44F-CE66-4AAC-999B-13DD398AB36B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_staff_pedestal_magic" ID="{940C4E04-7B69-4BD8-826B-5B024E60F2D6}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Huge_door" ID="{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="new" ID="{3CD3673D-0BA9-4F2D-B2F0-48B8A1767935}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<Folder Name="Ambience" ID="{0AA0AB40-0961-441D-B576-8D1141021950}" ShortID="72431389">
+					<ChildrenList>
+						<SoundBank Name="Ambience" ID="{FBDDD38B-54F5-413A-86EA-65C252C25DF2}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Main_rainforest" ID="{A5410061-E193-4738-9CE8-37F528132809}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Ambient_bed" ID="{A42536C7-5B89-4A56-996A-8088D03E4A65}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_General_ambience" ID="{4F0D5E3F-E586-4F16-BB1E-F4309BBE9BF9}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{D531461B-49CA-47BD-B56B-CA10A638034B}" ShortID="824807387">
+					<ChildrenList>
+						<SoundBank Name="Music_level_1" ID="{630E235F-E38D-4CF8-8423-8D4B1D6CE0A7}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_rRANDOM_MUSIC" ID="{E405B189-A311-466A-BFB5-51F7EFAB26B7}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enviroment" ID="{67A4198B-09B2-4DC8-97A9-B24E5F3C8262}" ShortID="378264883">
+					<ChildrenList>
+						<SoundBank Name="Special_objects" ID="{FB6D7DE7-C024-4C97-8F56-BF9864FDA73C}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_staff_pedestal_magic" ID="{940C4E04-7B69-4BD8-826B-5B024E60F2D6}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Huge_door" ID="{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Characters" ID="{78C0FDE5-D592-490E-8132-609066CFCD23}" ShortID="350523740">
+					<ChildrenList>
+						<SoundBank Name="Character_level_01" ID="{7BD46EE9-2D0A-44EF-9ADC-5ED2D107A07B}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_FTS" ID="{E727F2A6-69A5-4A71-9085-689A0992F44F}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Staff_Swing" ID="{9A7431B0-5D53-4AA3-8DC7-ACC9BFB32D7B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Staff_Hit" ID="{8361F44F-CE66-4AAC-999B-13DD398AB36B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+						<SoundBank Name="Enemies" ID="{3298F7A1-8311-4218-A5C1-094347268248}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Death" ID="{29E26370-DE93-44FD-B27B-727820D37D8C}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

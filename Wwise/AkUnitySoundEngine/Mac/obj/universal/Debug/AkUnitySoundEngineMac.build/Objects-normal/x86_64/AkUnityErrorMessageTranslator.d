@@ -1,0 +1,39 @@
+dependencies: \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/wwiseunity/AkUnitySoundEngine/Common/AkUnityErrorMessageTranslator.cpp \
+  stdafx.h ../Common/AkUnityErrorMessageTranslator.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkSoundEngine.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkSoundEngineExport.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/AkPlatforms.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Platforms/Mac/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Platforms/POSIX/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkNumeralTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/IAkPlugin.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkCommonDefs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkSpeakerConfig.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkBitFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkAtomicTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Mac/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkAssert.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/POSIX/AkPlatformFuncs.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkSpeakerVolumes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Platforms/Generic/AkSpeakerVolumes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/IAkRTPCSubscriber.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/IAkPluginMemAlloc.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkFPUtilities.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkAudioMarker.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkLock.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/POSIX/AkLock.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkMonitorError.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkRng.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/IAkProcessorFeatures.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/IAkPlatformContext.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkMidiTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkMixerTypes.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkCallback.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/AkWwiseSDKVersion.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Platforms/Mac/AkMacSoundEngine.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Platforms/Mac/AkPlatformContext.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/SoundEngine/Common/AkErrorMessageTranslator.h \
+  /Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/include/AK/Tools/Common/AkBankReadHelpers.h

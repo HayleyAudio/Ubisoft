@@ -1,0 +1,1025 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "85412153",
+    "Type": "User",
+    "GUID": "{FBDDD38B-54F5-413A-86EA-65C252C25DF2}",
+    "Language": "SFX",
+    "Hash": "{83D4A57D-B02F-D765-CB3B-DC12115D8D33}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\Ambience",
+    "ShortName": "Ambience",
+    "Path": "Ambience.bnk",
+    "Media": [
+     {
+      "Id": "16349655",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-017.wav",
+      "CachePath": "58/{581680DC-E62D-FCDA-4F94-A8756A34A8DF}.wem"
+     },
+     {
+      "Id": "21442520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-002.wav",
+      "CachePath": "24/{2453A733-9B40-9710-37BE-B4DDBA47AEFF}.wem"
+     },
+     {
+      "Id": "27139691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-010.wav",
+      "CachePath": "9F/{9FA4322F-DE9C-8E96-E8C2-5C2B9542C9D6}.wem"
+     },
+     {
+      "Id": "30290735",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Macaw, Loud, Close SND151829.wav",
+      "CachePath": "9D/{9D149C4A-4BAD-F5AC-9DF1-7C64DE650829}.wem"
+     },
+     {
+      "Id": "38567601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-015.wav",
+      "CachePath": "53/{5362B3BE-E9C8-B0FC-75A3-98B5EDB2CC49}.wem"
+     },
+     {
+      "Id": "39672352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Beak, Pepper, Bird, Corner Close SND53910 3.wav",
+      "CachePath": "7A/{7AABCD01-3245-AC44-BD1C-7C88108ECBBB}.wem"
+     },
+     {
+      "Id": "68885675",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 2.wav",
+      "CachePath": "3D/{3DF6D8BD-5E84-1D85-5A99-B98920365767}.wem"
+     },
+     {
+      "Id": "80530150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-004.wav",
+      "CachePath": "5F/{5FF8C36C-48B8-6071-EE64-A2F6E311CBB7}.wem"
+     },
+     {
+      "Id": "89216790",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329 1.wav",
+      "CachePath": "6E/{6EAC9F3C-F8BB-0381-B6A2-D381723C18A7}.wem"
+     },
+     {
+      "Id": "95521112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-009.wav",
+      "CachePath": "96/{9630A20F-AEB5-464E-ECCA-D3965838CF57}.wem"
+     },
+     {
+      "Id": "104416515",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-020.wav",
+      "CachePath": "F4/{F4223575-4DDE-A28D-0A87-C09F7BE6FA7B}.wem"
+     },
+     {
+      "Id": "108072599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-003.wav",
+      "CachePath": "64/{64EFEC0D-D1F6-FDAF-BBF1-628C6190B2B8}.wem"
+     },
+     {
+      "Id": "133932133",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Gibbon Doublet, Bird Singing Insect Birds SND53868 2.wav",
+      "CachePath": "5A/{5A612719-1238-66A4-C214-AEBEF72CF454}.wem"
+     },
+     {
+      "Id": "135386984",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-007.wav",
+      "CachePath": "34/{3482C114-9BAA-B5EE-E0D5-C6D29360D038}.wem"
+     },
+     {
+      "Id": "144579973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-007.wav",
+      "CachePath": "5F/{5FD34FF6-913A-CD6E-C769-8D7B584B47CF}.wem"
+     },
+     {
+      "Id": "159719062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-003.wav",
+      "CachePath": "91/{912F27DE-AB42-1088-0A47-2C3E32E98724}.wem"
+     },
+     {
+      "Id": "168022806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Singing Gibbons 01 SND131431.wav",
+      "CachePath": "42/{42CC4E9D-04A2-741B-9267-DE323441FE03}.wem"
+     },
+     {
+      "Id": "170671540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-019.wav",
+      "CachePath": "D8/{D8D6183E-7EC9-8AEA-F54A-E5658038E5B9}.wem"
+     },
+     {
+      "Id": "171546992",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-003.wav",
+      "CachePath": "DD/{DDF209A5-4182-B9A7-041C-6D47F484BC9B}.wem"
+     },
+     {
+      "Id": "188364766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-011.wav",
+      "CachePath": "92/{92466448-1569-584D-DDA7-F9001E68ECC0}.wem"
+     },
+     {
+      "Id": "200708736",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329.wav",
+      "CachePath": "9A/{9AB8F92B-8283-453E-FFF2-6616F46E7EA1}.wem"
+     },
+     {
+      "Id": "267131887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-002.wav",
+      "CachePath": "0F/{0F1FC49B-A9DB-284A-CCA8-B6149B26F4F9}.wem"
+     },
+     {
+      "Id": "269147888",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-014.wav",
+      "CachePath": "1F/{1F331521-514F-906D-AD2E-2E302033D341}.wem"
+     },
+     {
+      "Id": "288065772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-008.wav",
+      "CachePath": "71/{7126FE64-452C-D177-1D83-E22F8D4F3F05}.wem"
+     },
+     {
+      "Id": "291120690",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-002.wav",
+      "CachePath": "16/{16B911E8-E1D4-195E-1276-7F6A48609176}.wem"
+     },
+     {
+      "Id": "293464815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Songbird, Willow Warbler, Singing, Chirping, Mountain Air, Mjolfjell, Norway SND138991 1.wav",
+      "CachePath": "98/{98243B28-9B03-DA92-7BDC-74169F702B4D}.wem"
+     },
+     {
+      "Id": "310808990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-002.wav",
+      "CachePath": "AE/{AEDD7DEA-E33F-10F0-A6EA-40B77452E3DD}.wem"
+     },
+     {
+      "Id": "314304865",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-001.wav",
+      "CachePath": "A3/{A38C8A69-C25E-4A40-D95C-B2049585B163}.wem"
+     },
+     {
+      "Id": "328803683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-013.wav",
+      "CachePath": "9B/{9B2EB449-1536-53CC-4581-571E3574DAA5}.wem"
+     },
+     {
+      "Id": "367290990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-001.wav",
+      "CachePath": "33/{33C1B9F4-824E-C27F-114E-8A9AFD76B013}.wem"
+     },
+     {
+      "Id": "383848410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-009.wav",
+      "CachePath": "E3/{E3382E38-84D5-77FB-DADF-54E4EAD982DD}.wem"
+     },
+     {
+      "Id": "388987397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Gibbon Doublet, Bird Singing Insect Birds SND53868 3.wav",
+      "CachePath": "7E/{7EB9AC33-1199-24BE-A7A5-097715108CC7}.wem"
+     },
+     {
+      "Id": "425363387",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-007.wav",
+      "CachePath": "34/{34051010-4991-A4A8-0ACD-DDE35DE2F654}.wem"
+     },
+     {
+      "Id": "428054725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 1.wav",
+      "CachePath": "AA/{AA3719CD-77AA-B19E-D760-C23F68F4D277}.wem"
+     },
+     {
+      "Id": "501725792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-008.wav",
+      "CachePath": "52/{52BC702F-4FD6-4293-A3AB-EF0FC627CCBF}.wem"
+     },
+     {
+      "Id": "529604406",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Beak, Pepper, Bird, Corner Close SND53910.wav",
+      "CachePath": "AA/{AAF39517-8480-9464-D8C1-B60432AD9F87}.wem"
+     },
+     {
+      "Id": "567102107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-001.wav",
+      "CachePath": "FF/{FF860B0C-6FA5-4307-BD23-D7F01ACF097B}.wem"
+     },
+     {
+      "Id": "567747851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-015.wav",
+      "CachePath": "F8/{F89D1461-D58B-BF5F-DB80-BD9D9B52A932}.wem"
+     },
+     {
+      "Id": "582844474",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-008.wav",
+      "CachePath": "CE/{CE0F4DF3-BD7A-BF52-34A3-AF797DFD3C24}.wem"
+     },
+     {
+      "Id": "587085228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Songbird, Willow Warbler, Singing, Chirping, Mountain Air, Mjolfjell, Norway SND138991.wav",
+      "CachePath": "FF/{FFF58861-559F-58B7-47DF-9FD8C4BACA41}.wem"
+     },
+     {
+      "Id": "589050059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329 2.wav",
+      "CachePath": "94/{946E0C7E-7623-8630-D202-D7D10872C5BB}.wem"
+     },
+     {
+      "Id": "593279612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Songbird, Hedge Sparrow Song SND90382 1.wav",
+      "CachePath": "2D/{2D2107E8-C461-A0A1-E3B7-0BE15D53492F}.wem"
+     },
+     {
+      "Id": "598126107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-006.wav",
+      "CachePath": "7E/{7E236A95-BCCE-27DB-763E-12EACABDB542}.wem"
+     },
+     {
+      "Id": "599001729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-004.wav",
+      "CachePath": "1B/{1B8E87F7-931E-6B0D-EA3D-F94E2C7192AB}.wem"
+     },
+     {
+      "Id": "601233083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-010.wav",
+      "CachePath": "11/{11100E22-B10A-43B4-4D82-23673A5603D2}.wem"
+     },
+     {
+      "Id": "624218247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-004.wav",
+      "CachePath": "7D/{7D81D67E-8D15-4BF1-6C5D-813525B31D5A}.wem"
+     },
+     {
+      "Id": "628585995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Singing Gibbons 01 SND131431 1.wav",
+      "CachePath": "48/{480B7CFB-708D-D4E2-6B06-92757199FCA1}.wem"
+     },
+     {
+      "Id": "629449457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-006.wav",
+      "CachePath": "B3/{B3576169-7738-B79F-BA8A-C970648D4B3D}.wem"
+     },
+     {
+      "Id": "634153472",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Gibbon Doublet, Bird Singing Insect Birds SND53868 1.wav",
+      "CachePath": "64/{64E789DD-0306-CF81-CD6B-12FA3338322A}.wem"
+     },
+     {
+      "Id": "641614990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Songbird, Hedge Sparrow Song SND90382.wav",
+      "CachePath": "BF/{BF4D2776-9C4E-5FA0-D773-7A0AFA4C8A29}.wem"
+     },
+     {
+      "Id": "656121544",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-001.wav",
+      "CachePath": "AC/{ACC1DB17-498B-9061-882B-D0A85121737D}.wem"
+     },
+     {
+      "Id": "657524125",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Macaw, Loud, Close SND151829 2.wav",
+      "CachePath": "51/{51BDF566-B8D5-9D09-19C1-74E76311F04E}.wem"
+     },
+     {
+      "Id": "659385984",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 4.wav",
+      "CachePath": "01/{01AB4B25-704D-E9DD-AD4A-967AE3C2461B}.wem"
+     },
+     {
+      "Id": "681063552",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-007.wav",
+      "CachePath": "63/{633CFC9A-18DA-7800-69B3-FE699EEA977D}.wem"
+     },
+     {
+      "Id": "694969600",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-005.wav",
+      "CachePath": "C2/{C2CCEAAB-54FF-0FC5-C280-536ECB8D0325}.wem"
+     },
+     {
+      "Id": "698530738",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Beak, Pepper, Bird, Corner Close SND53910 2.wav",
+      "CachePath": "88/{88BC4ECD-7E54-57C5-36A5-4CE3EB75830D}.wem"
+     },
+     {
+      "Id": "700189381",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Gibbon Doublet, Bird Singing Insect Birds SND53868.wav",
+      "CachePath": "D0/{D06EA907-2D6E-A667-71C4-2C7FAE7188F8}.wem"
+     },
+     {
+      "Id": "708296496",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921.wav",
+      "CachePath": "79/{794A1B46-B4CB-370F-D183-5359526E7696}.wem"
+     },
+     {
+      "Id": "724166388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-021.wav",
+      "CachePath": "69/{69184B12-7B59-3FFE-BAB9-64BF0DEDD04B}.wem"
+     },
+     {
+      "Id": "774013622",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 3.wav",
+      "CachePath": "3B/{3B0D8397-4EAE-9F19-753E-0D49148DFE2C}.wem"
+     },
+     {
+      "Id": "777228108",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-001.wav",
+      "CachePath": "BD/{BDBADD4A-166C-F4B7-0D6A-2EA8D085706B}.wem"
+     },
+     {
+      "Id": "777351951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-014.wav",
+      "CachePath": "A0/{A0A6B2B2-6659-0A31-4A7A-E1B5DC57EA30}.wem"
+     },
+     {
+      "Id": "781197039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-005.wav",
+      "CachePath": "6A/{6AC96C3D-087C-1C34-178A-59E94B651D1E}.wem"
+     },
+     {
+      "Id": "810927696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-012.wav",
+      "CachePath": "34/{34EEA537-BB8F-F4A6-71F3-FE4334AE7201}.wem"
+     },
+     {
+      "Id": "815949926",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-005.wav",
+      "CachePath": "9E/{9E28FED5-B08B-28C5-A7C8-F33D905F084B}.wem"
+     },
+     {
+      "Id": "830275855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-010.wav",
+      "CachePath": "92/{921DC26A-9F05-0BD2-76CE-713FA7888983}.wem"
+     },
+     {
+      "Id": "852254211",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-008.wav",
+      "CachePath": "24/{2473742A-C27C-8A6E-F33B-44138F4F4FB2}.wem"
+     },
+     {
+      "Id": "861777971",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-012.wav",
+      "CachePath": "86/{86F6F45E-2108-B2A1-95E3-4B82E067A109}.wem"
+     },
+     {
+      "Id": "881085587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-018.wav",
+      "CachePath": "03/{038CD85C-BE2E-6780-713B-0CC5637D6DB1}.wem"
+     },
+     {
+      "Id": "891031091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Beak, Pepper, Bird, Corner Close SND53910 1.wav",
+      "CachePath": "BA/{BA3C7110-9839-7143-D1B4-1A46252D523F}.wem"
+     },
+     {
+      "Id": "899227971",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds_calls-003.wav",
+      "CachePath": "D2/{D2146564-7E6E-72AC-5FD2-351BBC99170F}.wem"
+     },
+     {
+      "Id": "920005445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birds, Tropical, Macaw, Loud, Close SND151829 1.wav",
+      "CachePath": "DA/{DA681301-4D65-F571-8672-7B6F2029C42E}.wem"
+     },
+     {
+      "Id": "924894096",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-006.wav",
+      "CachePath": "71/{7129BD21-499C-F476-CD38-0AB016894656}.wem"
+     },
+     {
+      "Id": "940254283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-004.wav",
+      "CachePath": "32/{329C07D0-F7E0-3702-306B-F73A25D295B9}.wem"
+     },
+     {
+      "Id": "954094635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-011.wav",
+      "CachePath": "47/{479BEDE1-F41D-F89D-54E5-A8A7387B796E}.wem"
+     },
+     {
+      "Id": "965127990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-005.wav",
+      "CachePath": "D3/{D3A151FA-24D2-0288-A3C9-6DE2DDBB146C}.wem"
+     },
+     {
+      "Id": "975121747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files-001-006.wav",
+      "CachePath": "C0/{C02E88B3-06AF-2365-4DF5-056108721285}.wem"
+     },
+     {
+      "Id": "976762311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-009.wav",
+      "CachePath": "1B/{1BAF710C-9558-4787-7AD2-2A2A87031523}.wem"
+     },
+     {
+      "Id": "1056306447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Files_new-013.wav",
+      "CachePath": "9E/{9EAA9B0A-0248-5CDF-4670-0E02226DEE83}.wem"
+     },
+     {
+      "Id": "1066072473",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rainforest_Frogs-016.wav",
+      "CachePath": "38/{38669DBE-58C5-A682-F824-ACBAE770EA76}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "111651104",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Ambience_2\\Main_rainforest\\cChanging_FXS\\Gibbons\\[Effect Slot [2]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{8B3AFFB1-28B5-457F-9B5C-C6045FF1FC92}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "1047543044",
+       "Name": "Low_Pass_20KHz (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Ambience_2\\Main_rainforest\\cChanging_FXS\\Flies\\[Effect Slot [0]: (Parametric EQ)]\\Low_Pass_20KHz (Custom)",
+       "GUID": "{BF34D1B2-1D6C-4C60-BA48-342C1AD490D0}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "1125262053",
+       "Name": "Blue_Distant_Echoes",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Blue_Distant_Echoes",
+       "GUID": "{ABFA9875-521E-451F-AAB9-AB148847B9C0}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "1198215643",
+       "Name": "Boomerang",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Boomerang",
+       "GUID": "{65397B72-19EC-43DB-B2D2-EB84437B6BDC}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "1431265797",
+       "Name": "Monsterize",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Transpose\\Monsterize",
+       "GUID": "{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "1674078407",
+       "Name": "Chorus_Like",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Chorus\\Chorus_Like",
+       "GUID": "{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "2653529179",
+       "Name": "Three_Voices",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Three_Voices",
+       "GUID": "{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "3354577677",
+       "Name": "Fast_LF_Tremolo",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo",
+       "GUID": "{3B09A271-D9D4-4A4E-B545-F681E8313E5F}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3851006675",
+       "Name": "Secret_message_Distant",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Secret_message_Distant",
+       "GUID": "{54C3F2D2-6B8D-4873-A383-2F6F7189C076}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2283471261",
+      "Name": "Play_Main_rainforest",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Main_rainforest",
+      "GUID": "{A5410061-E193-4738-9CE8-37F528132809}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "16349655"
+       },
+       {
+        "Id": "21442520"
+       },
+       {
+        "Id": "27139691"
+       },
+       {
+        "Id": "30290735"
+       },
+       {
+        "Id": "38567601"
+       },
+       {
+        "Id": "39672352"
+       },
+       {
+        "Id": "68885675"
+       },
+       {
+        "Id": "80530150"
+       },
+       {
+        "Id": "89216790"
+       },
+       {
+        "Id": "95521112"
+       },
+       {
+        "Id": "104416515"
+       },
+       {
+        "Id": "108072599"
+       },
+       {
+        "Id": "133932133"
+       },
+       {
+        "Id": "135386984"
+       },
+       {
+        "Id": "144579973"
+       },
+       {
+        "Id": "159719062"
+       },
+       {
+        "Id": "168022806"
+       },
+       {
+        "Id": "170671540"
+       },
+       {
+        "Id": "171546992"
+       },
+       {
+        "Id": "188364766"
+       },
+       {
+        "Id": "200708736"
+       },
+       {
+        "Id": "267131887"
+       },
+       {
+        "Id": "269147888"
+       },
+       {
+        "Id": "288065772"
+       },
+       {
+        "Id": "291120690"
+       },
+       {
+        "Id": "293464815"
+       },
+       {
+        "Id": "310808990"
+       },
+       {
+        "Id": "314304865"
+       },
+       {
+        "Id": "328803683"
+       },
+       {
+        "Id": "367290990"
+       },
+       {
+        "Id": "383848410"
+       },
+       {
+        "Id": "388987397"
+       },
+       {
+        "Id": "425363387"
+       },
+       {
+        "Id": "428054725"
+       },
+       {
+        "Id": "501725792"
+       },
+       {
+        "Id": "529604406"
+       },
+       {
+        "Id": "567102107"
+       },
+       {
+        "Id": "567747851"
+       },
+       {
+        "Id": "582844474"
+       },
+       {
+        "Id": "587085228"
+       },
+       {
+        "Id": "589050059"
+       },
+       {
+        "Id": "593279612"
+       },
+       {
+        "Id": "598126107"
+       },
+       {
+        "Id": "599001729"
+       },
+       {
+        "Id": "601233083"
+       },
+       {
+        "Id": "624218247"
+       },
+       {
+        "Id": "628585995"
+       },
+       {
+        "Id": "629449457"
+       },
+       {
+        "Id": "634153472"
+       },
+       {
+        "Id": "641614990"
+       },
+       {
+        "Id": "656121544"
+       },
+       {
+        "Id": "657524125"
+       },
+       {
+        "Id": "659385984"
+       },
+       {
+        "Id": "681063552"
+       },
+       {
+        "Id": "694969600"
+       },
+       {
+        "Id": "698530738"
+       },
+       {
+        "Id": "700189381"
+       },
+       {
+        "Id": "708296496"
+       },
+       {
+        "Id": "724166388"
+       },
+       {
+        "Id": "774013622"
+       },
+       {
+        "Id": "777228108"
+       },
+       {
+        "Id": "777351951"
+       },
+       {
+        "Id": "781197039"
+       },
+       {
+        "Id": "810927696"
+       },
+       {
+        "Id": "815949926"
+       },
+       {
+        "Id": "830275855"
+       },
+       {
+        "Id": "852254211"
+       },
+       {
+        "Id": "861777971"
+       },
+       {
+        "Id": "881085587"
+       },
+       {
+        "Id": "891031091"
+       },
+       {
+        "Id": "899227971"
+       },
+       {
+        "Id": "920005445"
+       },
+       {
+        "Id": "924894096"
+       },
+       {
+        "Id": "940254283"
+       },
+       {
+        "Id": "954094635"
+       },
+       {
+        "Id": "965127990"
+       },
+       {
+        "Id": "975121747"
+       },
+       {
+        "Id": "976762311"
+       },
+       {
+        "Id": "1056306447"
+       },
+       {
+        "Id": "1066072473"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "111651104"
+        },
+        {
+         "Id": "1047543044"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "1125262053"
+        },
+        {
+         "Id": "1198215643"
+        },
+        {
+         "Id": "1431265797"
+        },
+        {
+         "Id": "1674078407"
+        },
+        {
+         "Id": "2653529179"
+        },
+        {
+         "Id": "3354577677"
+        },
+        {
+         "Id": "3851006675"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{089C17B2-1B91-F74B-624D-56B588D3EFF5}"
+ }
+}

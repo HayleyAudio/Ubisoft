@@ -1,0 +1,39 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "141fbfc8d3eb1bf81d5ca8ccef4dfaf1f46cec330cc675b8a38dc83c9dfbfe30"
+    }
+  ],
+  "containerPath" : "/Users/Shared/Jenkins/ws/wwise_v2024.1.9/wwiseunity/AkUnitySoundEngine/Mac/AkUnitySoundEngineMac.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "WWISESDK" : "/Users/Shared/Jenkins/ws/wwise_v2024.1.9/Wwise/SDK/"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

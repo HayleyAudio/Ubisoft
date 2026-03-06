@@ -1,0 +1,80 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2242381963",
+    "Type": "User",
+    "GUID": "{3298F7A1-8311-4218-A5C1-094347268248}",
+    "Language": "SFX",
+    "Hash": "{DACDD97D-F8B8-BD9C-CA71-D0339668E176}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Enemies",
+    "ShortName": "Enemies",
+    "Path": "Enemies.bnk",
+    "Media": [
+     {
+      "Id": "623368422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "enemy_dies-001.wav",
+      "CachePath": "2D/{2D1FA8A0-AD50-0CA1-EF57-38EB89D8FE97}.wem"
+     },
+     {
+      "Id": "727211642",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "enemy_dies-002.wav",
+      "CachePath": "13/{139407BE-A6EB-7913-56BF-15D9907003B0}.wem"
+     },
+     {
+      "Id": "864462497",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "enemy_dies-004.wav",
+      "CachePath": "75/{7568F287-2057-821A-C9C3-66F1BA0A4176}.wem"
+     },
+     {
+      "Id": "974796990",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "enemy_dies-003.wav",
+      "CachePath": "98/{986CA77F-8C00-7746-DEB7-221064DB3DDC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1172822028",
+      "Name": "Play_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Death",
+      "GUID": "{29E26370-DE93-44FD-B27B-727820D37D8C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.55985415",
+      "DurationMax": "1.9426042",
+      "MediaRefs": [
+       {
+        "Id": "623368422"
+       },
+       {
+        "Id": "727211642"
+       },
+       {
+        "Id": "864462497"
+       },
+       {
+        "Id": "974796990"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B6352EEE-A1E8-A735-7BA9-0F108AB25605}"
+ }
+}
