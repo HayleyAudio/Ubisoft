@@ -49,6 +49,13 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="Level_1_music_alt" ID="{56E68884-3EA0-4592-A2CF-4E9439498FA7}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Music" ID="{C481770D-F785-481A-B852-F8A110AE4E2A}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enviroment" ID="{67A4198B-09B2-4DC8-97A9-B24E5F3C8262}" ShortID="378264883">

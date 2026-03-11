@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7BD46EE9-2D0A-44EF-9ADC-5ED2D107A07B}",
     "Language": "SFX",
-    "Hash": "{648E61FC-76C7-573A-BDAF-AAE93C1C7E7F}",
+    "Hash": "{C954BCEE-478E-2EA8-AE88-2B61F570D86B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Character_level_01",
     "ShortName": "Character_level_01",
     "Path": "Character_level_01.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Walking_Hardwood_04.wav",
       "CachePath": "29/{29F1896E-8A4C-4AFB-6218-D37E1C54DA92}.wem"
+     },
+     {
+      "Id": "144919740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989.wav",
+      "CachePath": "E5/{E56ADB4E-49B9-E6B0-1835-E341A6A3F7A9}.wem"
      },
      {
       "Id": "245800867",
@@ -78,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Staff_Swish-001.wav",
       "CachePath": "22/{22750088-B750-C146-D6A4-79D17EF6E6F2}.wem"
+     },
+     {
+      "Id": "581879529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FS_Gravel_01_Heel.wav",
+      "CachePath": "70/{70CC5F58-936E-1722-F44F-67D28AE996FF}.wem"
      },
      {
       "Id": "584338362",
@@ -208,7 +224,7 @@
       "GUID": "{E727F2A6-69A5-4A71-9085-689A0992F44F}",
       "DurationType": "OneShot",
       "DurationMin": "0.2260625",
-      "DurationMax": "0.68540037",
+      "DurationMax": "0.8321984",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -301,6 +317,22 @@
           "Id": "963593159"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "354267144",
+         "Id": "2654748154",
+         "GUID": "{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144919740"
+         },
+         {
+          "Id": "581879529"
+         }
+        ]
        }
       ]
      },
@@ -377,6 +409,12 @@
         "GUID": "{0EA59F01-3A48-4C78-8CC9-FA51777FA087}"
        },
        {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Water",
+        "GUID": "{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Grass",
@@ -387,6 +425,6 @@
     ]
    }
   ],
-  "FileHash": "{AEFAA35E-8CFB-A152-ABE2-88B4C6A7E803}"
+  "FileHash": "{5647B42E-07BD-8B3B-768A-74C5593BDBFD}"
  }
 }

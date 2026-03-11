@@ -9,5 +9,6 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Terrain			
 	2195636714	Dirt	Terrain			
 	2473969246	Metal	Terrain			
+	2654748154	Water	Terrain			
 	4248645337	Grass	Terrain			
 

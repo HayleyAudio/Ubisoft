@@ -11,10 +11,12 @@ Switch	ID	Name	Switch Group			Notes
 	2185786256	Gravel	Terrain			
 	2195636714	Dirt	Terrain			
 	2473969246	Metal	Terrain			
+	2654748154	Water	Terrain			
 	4248645337	Grass	Terrain			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	60736706	Footstep_Walking_Hardwood_04	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\29\{29F1896E-8A4C-4AFB-6218-D37E1C54DA92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_04		21798
+	144919740	Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E5\{E56ADB4E-49B9-E6B0-1835-E341A6A3F7A9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Water\water_ft\Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989		65364
 	245800867	Footstep_Walking_Hardmetal_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\09\{09551186-5F03-97C2-9956-996EDD7B280E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_02		24180
 	279177834	FS_Dirt_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\77\{7705EF54-DC90-3654-A458-07821385283A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Dirt\FS_Dirt_03		43464
 	330817010	Footstep_Walking_Hardmetal_05	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E5\{E540F3A0-3D20-BA92-70F6-A4A77053D5EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_05		33796
@@ -22,6 +24,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	468084830	AK_FS_Run_Gravel_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\86\{8674BD6B-F7AD-6384-72C4-73062F193BCB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Gravel\AK_FS_Run_Gravel_02		25666
 	542412849	Footstep_Walking_Hardwood_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\42\{42DBC691-6E2E-5F8D-8737-1D657921AFC8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_03		24924
 	562654317	Staff_Swish-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\22\{22750088-B750-C146-D6A4-79D17EF6E6F2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Swing\Staff_Swish-001		274756
+	581879529	FS_Gravel_01_Heel	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\70\{70CC5F58-936E-1722-F44F-67D28AE996FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Water\water_ft\FS_Gravel_01_Heel		30010
 	584338362	AK_FS_Run_Gravel_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\3D\{3D5093FB-D022-59E2-2622-E423E4B87BA0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Gravel\AK_FS_Run_Gravel_03		24538
 	630895102	Footstep_Walking_Hardwood_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\CA\{CA016289-4407-1B84-A9CD-F3F358842D64}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_01		22604
 	695132908	Footstep_Walking_Hardwood_05	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\1E\{1E015A9E-FA5C-ACF7-0268-011E9F5747D2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_05		28460

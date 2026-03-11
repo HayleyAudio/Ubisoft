@@ -10,6 +10,7 @@
 						<Switch Name="Gravel" ID="{D52DF775-890B-496A-BD5A-824DD44641A0}"/>
 						<Switch Name="Metal" ID="{0EA59F01-3A48-4C78-8CC9-FA51777FA087}"/>
 						<Switch Name="Wood" ID="{62E90B19-CD20-457E-AB31-0E19B5B4BDBC}"/>
+						<Switch Name="Water" ID="{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

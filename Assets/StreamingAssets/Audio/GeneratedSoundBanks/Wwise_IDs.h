@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID PLAY_GENERAL_AMBIENCE = 765412309U;
         static const AkUniqueID PLAY_HUGE_DOOR = 2847601794U;
         static const AkUniqueID PLAY_MAIN_RAINFOREST = 2283471261U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_RRANDOM_MUSIC = 3099668085U;
         static const AkUniqueID PLAY_STAFF_HIT = 2291232698U;
         static const AkUniqueID PLAY_STAFF_PEDESTAL_MAGIC = 74052169U;
@@ -40,6 +41,7 @@ namespace AK
                 static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID GRAVEL = 2185786256U;
                 static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID WATER = 2654748154U;
                 static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace TERRAIN
@@ -53,6 +55,7 @@ namespace AK
         static const AkUniqueID AMBIENT_BED = 3417108331U;
         static const AkUniqueID CHARACTER_LEVEL_01 = 594866469U;
         static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID LEVEL_1_MUSIC_ALT = 1390255753U;
         static const AkUniqueID MUSIC_LEVEL_1 = 3508274217U;
         static const AkUniqueID NEW = 444308101U;
         static const AkUniqueID SOUNDBANK = 1661994096U;

@@ -74,6 +74,12 @@
         "GUID": "{0EA59F01-3A48-4C78-8CC9-FA51777FA087}"
        },
        {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Water",
+        "GUID": "{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Grass",
@@ -84,6 +90,6 @@
     ]
    }
   ],
-  "FileHash": "{F95790BF-3662-6ABE-B357-FA9EA722E1F2}"
+  "FileHash": "{B96CD799-24C7-C686-A068-87BE97980819}"
  }
 }

@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1390255753",
+    "Type": "User",
+    "GUID": "{56E68884-3EA0-4592-A2CF-4E9439498FA7}",
+    "Language": "SFX",
+    "Hash": "{E73B4F10-2800-2504-A198-BB80CD2F1D09}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music\\Level_1_music_alt",
+    "ShortName": "Level_1_music_alt",
+    "Path": "Level_1_music_alt.bnk",
+    "Media": [
+     {
+      "Id": "316439127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837.wav",
+      "CachePath": "A5/{A5250C5A-13CA-5D4C-733D-E4B74314E241}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2932040671",
+      "Name": "Play_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Music",
+      "GUID": "{C481770D-F785-481A-B852-F8A110AE4E2A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "316439127"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5CE04963-2636-DBAF-B43E-10DFCD80030B}"
+ }
+}

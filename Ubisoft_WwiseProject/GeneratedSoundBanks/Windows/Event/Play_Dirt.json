@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F2C7D898-8BFF-417A-9C33-EA2D9ADB6FA6}",
     "Language": "SFX",
-    "Hash": "{4D01EDA2-682B-C457-80E5-DDF5EF31192F}",
+    "Hash": "{CEEBC595-0F36-3892-F7BB-8F6C20942CEA}",
     "ObjectPath": "Play_Dirt",
     "ShortName": "Play_Dirt",
     "Path": "Event/Play_Dirt.bnk",
@@ -109,6 +109,12 @@
         "GUID": "{0EA59F01-3A48-4C78-8CC9-FA51777FA087}"
        },
        {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Water",
+        "GUID": "{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Terrain\\Grass",
@@ -119,6 +125,6 @@
     ]
    }
   ],
-  "FileHash": "{1B243394-B8EA-C631-E0F4-B2521B882FAD}"
+  "FileHash": "{5718FC14-76C9-B7E4-09E5-9BCDBC5F81A2}"
  }
 }

@@ -3096,516 +3096,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
-								<RandomSequenceContainer Name="Random_Low_bed" ID="{D9D0FA08-D3DC-441D-9EE8-C69B8A74746C}" ShortID="295869793">
-									<PropertyList>
-										<Property Name="OverrideEffect" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{0732FAE1-9B78-4236-8508-695E8E81C0D9}"/>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{AD06FAC3-DE0A-4BB7-A9F8-1DF32697151B}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="2"/>
-															<Property Name="Min" Type="Real64" Value="-2"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-20</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<BlendContainer Name="geo2" ID="{B01331AC-AF7C-42F8-B86B-B5FB5AED05CA}" ShortID="707516181">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{C56B4826-538B-4F1E-B634-01526B684E61}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-2475"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>5</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{227CBDE8-A845-4C55-9C0D-6D7EC24A081E}" ShortID="535825744">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{B3C37B19-A17E-43EB-858F-FD6FCA31EAB0}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{03FE0B07-7B90-4833-AD42-110EF4E33333}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="4.46799116997792"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEWomersley House 6.wav [chan 1]08.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="676461811"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{03FE0B07-7B90-4833-AD42-110EF4E33333}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{F6CC14FB-D42B-45A5-98CD-0541AD857B20}" ShortID="121529343">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{300E6F03-D46D-4898-BC0D-524F5F56BBE1}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{A76161BD-E9D5-4A9E-B413-288DCE06C625}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="13.0441501103753"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEWomersley House 8.wav [chan 1]09.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="347572978"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{A76161BD-E9D5-4A9E-B413-288DCE06C625}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{7D3E2129-4A83-4ED9-B423-C5EF2F8CA2EE}" ShortID="82224919">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{09CCB0B1-8FA7-4382-B9FA-E21D3CB9F910}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{9ABAD0AD-95CC-4E4D-A62C-9E5648D2ADE9}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="40.794701986755"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEWomersley House.wav [chan 1]10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="853200626"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{9ABAD0AD-95CC-4E4D-A62C-9E5648D2ADE9}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{11CDFCF9-0222-4B14-B488-3829354C2610}" ShortID="974657217">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{E9028A0A-D453-4A28-AD5A-41B476A0E292}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{6C04AC08-DF62-4865-87DB-04C9084C9F1D}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="4.00110375275938"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 2.wav [chan 1]11.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="219252432"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{6C04AC08-DF62-4865-87DB-04C9084C9F1D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{A9872035-C1AD-4C45-ADBF-C610C9D2AD01}" ShortID="300719459">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{5DEC0DED-715E-4C49-83EA-D35008DFD50F}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{0D6544DA-C11D-457D-A74D-04E92EC0C440}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="25.9271523178808"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 4.wav [chan 1]12.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1058622073"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{0D6544DA-C11D-457D-A74D-04E92EC0C440}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{BE33F0E9-4F06-45FA-B766-23B6C4DD97D2}" ShortID="600670931">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{9A1A8CAC-0A3A-4175-BCF9-13A6CF0BB600}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{4258E940-D358-4D51-858F-FC9E874FF30F}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="59.7880794701987"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 4.wav [chan 1]13.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="249497991"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{4258E940-D358-4D51-858F-FC9E874FF30F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{EB1E2523-6177-47B5-B501-69678A07B5C7}" ShortID="459456661">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{DE0BE7F1-5348-4B76-B7B2-68C71C6611DF}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{7E9D7FE0-CA16-414F-948C-FB15B672FA4C}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="23.9514348785872"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 8.wav [chan 1]15.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1040721064"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{7E9D7FE0-CA16-414F-948C-FB15B672FA4C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{829747B1-095B-4D3D-AE15-BF5784829F65}" ShortID="541320064">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{6565D957-7224-4F1C-BE47-876F7CC3A2F1}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{C27A16C7-A0BE-4A11-A853-4ADF6BD1A055}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="18.1225165562914"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 12.wav [chan 1]14.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="305865184"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{C27A16C7-A0BE-4A11-A853-4ADF6BD1A055}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{031697D3-5BF0-47E7-AF66-B6EC3465E62E}" ShortID="997799838">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{EB957D83-75D5-4D47-830E-57BDB8A965DA}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{4CA19D0C-7E81-4090-BAE3-167DB252E046}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="18.4238410596026"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 12.wav [chan 1]16.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="562747187"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{4CA19D0C-7E81-4090-BAE3-167DB252E046}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{F584B60E-53B2-4441-9412-7CDD2CDDD2C2}" ShortID="365318987">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{B849992B-6B38-4B50-8BBA-6702C6C26718}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{1700DCC9-5AD1-4A45-80A2-358D9DFAA6E5}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="22.3846578366446"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 14.wav [chan 1]17.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="115337701"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{1700DCC9-5AD1-4A45-80A2-358D9DFAA6E5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{58AF817D-005E-4F3E-B252-4DB6751130BA}" ShortID="698496">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ModifierList>
-																<ModifierInfo>
-																	<Modifier Name="" ID="{82B2E898-6FD0-4B61-8D08-FF73E4ED30CC}"/>
-																</ModifierInfo>
-															</ModifierList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{80566CBF-7DE7-459B-B0D7-AA50610E30A6}">
-															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="108.950955530162"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>01_GEOPHONEZen Living Accommodation 15.wav [chan 1]18.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="411456062"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{80566CBF-7DE7-459B-B0D7-AA50610E30A6}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</BlendContainer>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="Effects">
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{697005FE-0E60-4C37-AAF1-67C3652A022A}" ShortID="1059575233">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-																<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{BA66E21F-3E47-44C1-A606-45513AA92797}" ShortID="516838872">
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
-																<ObjectRef Name="Brick_Wall_Minus_6dB_Peak_Slow_Release" ID="{E0BA4DE6-A10C-49AF-A3E4-C5F71BA79EE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-											<Reference>
-												<Local>
-													<EffectSlot Name="" ID="{B757D872-A56A-483D-9A47-DA50F59B2121}" ShortID="143658048">
-														<PropertyList>
-															<Property Name="Bypass" Type="bool" Value="True"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="Effect" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
-																<ObjectRef Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-															</Reference>
-														</ReferenceList>
-													</EffectSlot>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</RandomSequenceContainer>
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
@@ -4082,6 +3572,105 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Water" ID="{754086AA-F501-4997-BFDA-B20B5F9079B5}" ShortID="633129053">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="water_ft" ID="{F9822D0B-5488-44F2-A4D2-F0467789A84E}" ShortID="922813671">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989" ID="{DDEFD713-7FFF-47E2-9B29-56168448D856}" ShortID="361369744">
+															<PropertyList>
+																<Property Name="Pitch" Type="int32">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{1392A173-7D54-4104-BE60-FCCF6C1733A3}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="300"/>
+																					<Property Name="Min" Type="Real64" Value="-350"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989" ID="{01012952-4F51-4825-8B4F-5B4AFC657510}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00906494442795341"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.441592292847445"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.679870817950337"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="144919740"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989" ID="{01012952-4F51-4825-8B4F-5B4AFC657510}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FS_Gravel_01_Heel" ID="{F3F22C50-E7A0-41B7-9897-2233540D16C5}" ShortID="22593057">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FS_Gravel_01_Heel" ID="{DFC9B31D-04A7-4F07-A58E-8F2037DEA8A4}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FS_Gravel_01_Heel.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="581879529"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FS_Gravel_01_Heel" ID="{DFC9B31D-04A7-4F07-A58E-8F2037DEA8A4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</BlendContainer>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
@@ -4096,6 +3685,9 @@
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Metal" ID="{A8525FA9-75F5-4EC3-916D-E97EDD5E6D4F}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Water" ID="{754086AA-F501-4997-BFDA-B20B5F9079B5}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Wood" ID="{58F032DD-1DDD-4813-8D3B-09CEFBEB5368}"/>
@@ -4124,6 +3716,12 @@
 												<SwitchRef Name="Dirt" ID="{FA8ABAAC-F669-46FF-AF7E-A75ACC9138E4}"/>
 												<ItemList>
 													<ItemRef Name="Dirt" ID="{68180A2E-AE8A-4D97-BD7D-CF411204B5E9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Water" ID="{7449E6C1-8644-4C4A-B06A-52A6A5B48195}"/>
+												<ItemList>
+													<ItemRef Name="Water" ID="{754086AA-F501-4997-BFDA-B20B5F9079B5}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
@@ -5462,6 +5060,578 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="KS_AI_7" ID="{BC0A9696-6363-4F12-AFFD-0FEC4B738BC3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="free space " ID="{B91BC3D5-B39E-4098-9E41-D27CEBA66314}" ShortID="571139904">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Random_Low_bed" ID="{D9D0FA08-D3DC-441D-9EE8-C69B8A74746C}" ShortID="295869793">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0732FAE1-9B78-4236-8508-695E8E81C0D9}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AD06FAC3-DE0A-4BB7-A9F8-1DF32697151B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="geo2" ID="{B01331AC-AF7C-42F8-B86B-B5FB5AED05CA}" ShortID="707516181">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C56B4826-538B-4F1E-B634-01526B684E61}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-2475"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{227CBDE8-A845-4C55-9C0D-6D7EC24A081E}" ShortID="535825744">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B3C37B19-A17E-43EB-858F-FD6FCA31EAB0}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{03FE0B07-7B90-4833-AD42-110EF4E33333}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.46799116997792"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEWomersley House 6.wav [chan 1]08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="676461811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEWomersley House 6_wav [chan 1]08" ID="{03FE0B07-7B90-4833-AD42-110EF4E33333}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{F6CC14FB-D42B-45A5-98CD-0541AD857B20}" ShortID="121529343">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{300E6F03-D46D-4898-BC0D-524F5F56BBE1}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{A76161BD-E9D5-4A9E-B413-288DCE06C625}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="13.0441501103753"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEWomersley House 8.wav [chan 1]09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="347572978"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEWomersley House 8_wav [chan 1]09" ID="{A76161BD-E9D5-4A9E-B413-288DCE06C625}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{7D3E2129-4A83-4ED9-B423-C5EF2F8CA2EE}" ShortID="82224919">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{09CCB0B1-8FA7-4382-B9FA-E21D3CB9F910}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{9ABAD0AD-95CC-4E4D-A62C-9E5648D2ADE9}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="40.794701986755"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEWomersley House.wav [chan 1]10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="853200626"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEWomersley House_wav [chan 1]10" ID="{9ABAD0AD-95CC-4E4D-A62C-9E5648D2ADE9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{11CDFCF9-0222-4B14-B488-3829354C2610}" ShortID="974657217">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E9028A0A-D453-4A28-AD5A-41B476A0E292}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{6C04AC08-DF62-4865-87DB-04C9084C9F1D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.00110375275938"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 2.wav [chan 1]11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="219252432"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 2_wav [chan 1]11" ID="{6C04AC08-DF62-4865-87DB-04C9084C9F1D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{A9872035-C1AD-4C45-ADBF-C610C9D2AD01}" ShortID="300719459">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5DEC0DED-715E-4C49-83EA-D35008DFD50F}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{0D6544DA-C11D-457D-A74D-04E92EC0C440}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="25.9271523178808"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 4.wav [chan 1]12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1058622073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]12" ID="{0D6544DA-C11D-457D-A74D-04E92EC0C440}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{BE33F0E9-4F06-45FA-B766-23B6C4DD97D2}" ShortID="600670931">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9A1A8CAC-0A3A-4175-BCF9-13A6CF0BB600}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{4258E940-D358-4D51-858F-FC9E874FF30F}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="59.7880794701987"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 4.wav [chan 1]13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="249497991"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 4_wav [chan 1]13" ID="{4258E940-D358-4D51-858F-FC9E874FF30F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{EB1E2523-6177-47B5-B501-69678A07B5C7}" ShortID="459456661">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DE0BE7F1-5348-4B76-B7B2-68C71C6611DF}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{7E9D7FE0-CA16-414F-948C-FB15B672FA4C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="23.9514348785872"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 8.wav [chan 1]15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1040721064"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 8_wav [chan 1]15" ID="{7E9D7FE0-CA16-414F-948C-FB15B672FA4C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{829747B1-095B-4D3D-AE15-BF5784829F65}" ShortID="541320064">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6565D957-7224-4F1C-BE47-876F7CC3A2F1}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{C27A16C7-A0BE-4A11-A853-4ADF6BD1A055}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="18.1225165562914"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 12.wav [chan 1]14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="305865184"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]14" ID="{C27A16C7-A0BE-4A11-A853-4ADF6BD1A055}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{031697D3-5BF0-47E7-AF66-B6EC3465E62E}" ShortID="997799838">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EB957D83-75D5-4D47-830E-57BDB8A965DA}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{4CA19D0C-7E81-4090-BAE3-167DB252E046}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="18.4238410596026"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 12.wav [chan 1]16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="562747187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 12_wav [chan 1]16" ID="{4CA19D0C-7E81-4090-BAE3-167DB252E046}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{F584B60E-53B2-4441-9412-7CDD2CDDD2C2}" ShortID="365318987">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B849992B-6B38-4B50-8BBA-6702C6C26718}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{1700DCC9-5AD1-4A45-80A2-358D9DFAA6E5}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="22.3846578366446"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 14.wav [chan 1]17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="115337701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 14_wav [chan 1]17" ID="{1700DCC9-5AD1-4A45-80A2-358D9DFAA6E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{58AF817D-005E-4F3E-B252-4DB6751130BA}" ShortID="698496">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{82B2E898-6FD0-4B61-8D08-FF73E4ED30CC}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{80566CBF-7DE7-459B-B0D7-AA50610E30A6}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="108.950955530162"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>01_GEOPHONEZen Living Accommodation 15.wav [chan 1]18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="411456062"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="01_GEOPHONEZen Living Accommodation 15_wav [chan 1]18" ID="{80566CBF-7DE7-459B-B0D7-AA50610E30A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{697005FE-0E60-4C37-AAF1-67C3652A022A}" ShortID="1059575233">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{BA66E21F-3E47-44C1-A606-45513AA92797}" ShortID="516838872">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<ObjectRef Name="Brick_Wall_Minus_6dB_Peak_Slow_Release" ID="{E0BA4DE6-A10C-49AF-A3E4-C5F71BA79EE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{B757D872-A56A-483D-9A47-DA50F59B2121}" ShortID="143658048">
+												<PropertyList>
+													<Property Name="Bypass" Type="bool" Value="True"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+														<ObjectRef Name="Fast_LF_Tremolo" ID="{3B09A271-D9D4-4A4E-B545-F681E8313E5F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music_2" ID="{F7128600-CA15-4B2B-840D-891DB5B3DA86}" ShortID="164103012">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Music" ID="{AA2B4039-C948-4813-B7D8-84BC9D332497}" ShortID="453392333">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837" ID="{9228F63E-C722-473A-AD74-34095B3EF593}" ShortID="539563873">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{50E14867-459B-4B76-B791-4ED93EA31CED}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="1400"/>
+															<Property Name="Min" Type="Real64" Value="-1750"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837" ID="{02713D11-5946-40F2-B7C0-B7670CFCE937}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.261937384715999"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="316439127"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837" ID="{02713D11-5946-40F2-B7C0-B7670CFCE937}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
