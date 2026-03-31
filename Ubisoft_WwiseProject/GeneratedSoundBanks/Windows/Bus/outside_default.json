@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1411345944",
+    "Type": "Bus",
+    "GUID": "{64F11DAA-3E95-42F8-89A5-E9413843FB76}",
+    "Language": "SFX",
+    "Hash": "{0EFC34BB-782B-A5A2-C06B-65EC9FD6791A}",
+    "ObjectPath": "outside_default",
+    "ShortName": "outside_default",
+    "Path": "Bus/outside_default.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1411345944",
+      "Name": "outside_default",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\outside_default",
+      "GUID": "{64F11DAA-3E95-42F8-89A5-E9413843FB76}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9C2A9848-D19E-8723-9CA4-D0307357D439}"
+ }
+}

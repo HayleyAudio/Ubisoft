@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{67A7DA63-F95C-4B9C-B087-C8B006F16DDC}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{67A7DA63-F95C-4B9C-B087-C8B006F16DDC}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{67A7DA63-F95C-4B9C-B087-C8B006F16DDC}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Reverb_Zones" ID="{1048158A-AD7A-4B8A-A880-8D109FE95E4F}">
+					<ChildrenList>
+						<State Name="None" ID="{E9659978-1980-4761-8386-B183DA9F721D}"/>
+						<State Name="Outside_default" ID="{8BF761E0-9C32-4C6A-9ACE-80A8F6AEF4F0}"/>
+						<State Name="Inside_cave" ID="{1863294E-1262-49F2-BFED-61C8CA70D523}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -9,6 +9,47 @@
 							<ObjectRef Name="System" ID="{AC76548F-0415-4EC2-BC53-9AB586E84C11}" WorkUnitID="{27F1D9BA-D180-49F0-896E-62D81AFA27BA}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="inside_cave" ID="{477B702E-9C87-4398-B38F-9E95E1EDAFF8}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{AA1312EB-8B92-4E3D-9CC9-B65E7F2C80F3}" ShortID="19228968">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="outside_default" ID="{64F11DAA-3E95-42F8-89A5-E9413843FB76}"/>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="Reverb_Zones" ID="{1048158A-AD7A-4B8A-A880-8D109FE95E4F}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="None" ID="{E9659978-1980-4761-8386-B183DA9F721D}"/>
+								<CustomState Name="" ID="{62AFB99A-0390-4B56-B864-5C03A82678ED}" ShortID="101195549"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Inside_cave" ID="{1863294E-1262-49F2-BFED-61C8CA70D523}"/>
+								<CustomState Name="" ID="{94839916-5D2F-44DF-9730-27D9783B349C}" ShortID="235402499"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Outside_default" ID="{8BF761E0-9C32-4C6A-9ACE-80A8F6AEF4F0}"/>
+								<CustomState Name="" ID="{5710441A-C0BA-428B-AB53-DBB34A462B37}" ShortID="469321554"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

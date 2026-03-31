@@ -11,6 +11,13 @@
     "StaticLib": "AkParametricEQFX"
    },
    {
+    "LibName": "Wwise Matrix Reverb",
+    "LibId": "7536643",
+    "Type": "Effect",
+    "DLL": "AkMatrixReverb",
+    "StaticLib": "AkMatrixReverbFX"
+   },
+   {
     "LibName": "Wwise RoomVerb",
     "LibId": "7733251",
     "Type": "Effect",
@@ -70,6 +77,6 @@
     "Type": "AudioDevice"
    }
   ],
-  "FileHash": "{6A193C91-1F46-260E-4287-7A033567CFC4}"
+  "FileHash": "{4C402EEA-BA12-3539-79DE-358067922A48}"
  }
 }

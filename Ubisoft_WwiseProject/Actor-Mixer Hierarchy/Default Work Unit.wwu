@@ -54,6 +54,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Frogs" ID="{BBE2D299-8C51-4EE8-8946-09F5CDA405E3}" ShortID="894372818">
 											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -85,13 +86,12 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-21</Value>
+														<Value>-36</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{91A8AC3D-DE4B-4273-BE95-B2EFB1DECAB4}">
 																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
 																	<Property Name="Min" Type="Real64" Value="-12"/>
 																</PropertyList>
 															</Modifier>
@@ -168,7 +168,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-002" ID="{A133BE76-B449-4B84-B88A-D90E2C1C5956}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0369127437492672"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0474592419633439"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.84563968949813"/>
 															</PropertyList>
@@ -201,6 +202,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-003" ID="{BC14F2A9-5F0E-45C1-8E3F-E2E606C58660}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0751282410927391"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0590293322871522"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.78511117186813"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Rainforest_Frogs-003.wav</AudioFile>
 															<MediaIDList>
@@ -231,7 +238,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-004" ID="{22ED005A-97DC-46B7-9F51-61D26AE1261A}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0746040812618573"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0746040812618576"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="4.42427729682838"/>
 															</PropertyList>
@@ -248,6 +256,11 @@
 												</Sound>
 												<Sound Name="Rainforest_Frogs-005" ID="{207656C5-D88E-427D-A855-0ABAEEE5D872}" ShortID="444141755">
 													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
 																<Value>20</Value>
@@ -265,7 +278,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-005" ID="{51D24313-6CBE-4D17-B128-1CA3B5A58C40}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0854471344577015"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.08941032765033"/>
 															</PropertyList>
@@ -299,7 +312,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-006" ID="{E62D1C21-5A64-49F0-B79A-5870AE6A2CF0}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.141451909792537"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.117876591493781"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="7.581767730275"/>
 															</PropertyList>
@@ -367,7 +381,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-008" ID="{3DC60CD5-2191-4F46-B49D-E566CAA10BC4}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0769336935930655"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0607371265208412"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.90333341865876"/>
 															</PropertyList>
@@ -384,6 +399,11 @@
 												</Sound>
 												<Sound Name="Rainforest_Frogs-009" ID="{C185BFE2-DB1F-4A28-AF16-FDC93B356A83}" ShortID="76625648">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
 																<Value>13</Value>
@@ -435,7 +455,7 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-010" ID="{1068A9B6-82DC-456A-BBD2-3751CE657425}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0794873270136272"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.94444630355077"/>
 															</PropertyList>
@@ -469,7 +489,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-011" ID="{09FC6BFA-59B9-499C-9A8D-6139B5CDDBD3}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0660185046280553"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.074820971911796"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.14005361573428"/>
 															</PropertyList>
@@ -486,6 +507,11 @@
 												</Sound>
 												<Sound Name="Rainforest_Frogs-012" ID="{51939650-5AF9-476E-A51F-DC9BEA5B90A2}" ShortID="777716336">
 													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
 																<Value>16</Value>
@@ -537,7 +563,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-013" ID="{010013DB-C6A4-404D-9C8D-038D9746B993}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0401628007667614"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.030122100575071"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.80625107080047"/>
 															</PropertyList>
@@ -571,7 +598,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-014" ID="{05FC21C6-5E86-4050-8EC4-37DDA6EE62C9}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0343907731616969"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0573179552694947"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.77454542328454"/>
 															</PropertyList>
@@ -605,7 +633,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-015" ID="{1372A0B3-1AA4-454A-85BC-620172A5E253}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.101205661222034"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.104182298316799"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.16318502100888"/>
 															</PropertyList>
@@ -639,7 +668,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-016" ID="{0D2A81B9-97A3-41AC-B3B1-FB762DB2E577}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0623674379689632"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0506735433497827"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.80704238642341"/>
 															</PropertyList>
@@ -673,7 +703,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-017" ID="{D6F77D03-F0FE-440D-81C1-BBA2140B3280}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0749715789441035"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.088602775115759"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="3.93159950816342"/>
 															</PropertyList>
@@ -707,7 +738,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-018" ID="{295D61A2-0328-4DD8-BE30-BCD82B02DB2B}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0963864254918951"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0578318552951367"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.4993074658017"/>
 															</PropertyList>
@@ -741,7 +773,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-019" ID="{D7831D70-A39A-44F0-BD34-9BA270D1A650}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.169031811931449"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.259182111628221"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="7.23891445862221"/>
 															</PropertyList>
@@ -775,7 +808,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-020" ID="{6B8A7FE0-3057-4A21-98F8-B32BFB75CBD3}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.112616758879991"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.128704867291417"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="4.77039931592457"/>
 															</PropertyList>
@@ -809,7 +843,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="Rainforest_Frogs-021" ID="{76D61A48-3727-4877-AE12-80143A93144F}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.158124571770308"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0948747430621846"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimEnd" Type="Real64" Value="3.55647652636985"/>
 															</PropertyList>
@@ -861,6 +896,21 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{B56FD660-9806-4AEC-8DA2-06F2418167C6}" ShortID="662332788">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																		<ObjectRef Name="Large_Church1" ID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Flies" ID="{16641A2B-9F95-4013-BBCC-07FA7D253405}" ShortID="487067996">
 											<PropertyList>
@@ -1587,6 +1637,318 @@
 														<ActiveSource Name="Files-001-001" ID="{954C807D-10C7-4245-99AE-15CA6385C04E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="silent" ID="{29CE5A20-08D9-439B-804A-C19076C391EA}" ShortID="611439210">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{9B07C21D-6FB5-4D9E-87A6-798246A9A980}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{9B07C21D-6FB5-4D9E-87A6-798246A9A980}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_01" ID="{A8344FD7-E7C1-4685-8D2B-87D7A480BD53}" ShortID="280351632">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{01638BC2-FA6E-4F98-B19F-C700111EBAAB}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{01638BC2-FA6E-4F98-B19F-C700111EBAAB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_02" ID="{58C8BB03-F16B-4A9A-AB47-887B9EBC140C}" ShortID="801352964">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{F9E548AA-360A-420F-8D93-944E4CB57373}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{F9E548AA-360A-420F-8D93-944E4CB57373}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_03" ID="{C12CA631-70B2-4080-A401-3E20095A88F2}" ShortID="763582839">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{569AAB87-9113-46DC-8848-4CB05B34D00E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{569AAB87-9113-46DC-8848-4CB05B34D00E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_04" ID="{576F9235-D2EB-407F-B060-51BBA0B7FFE5}" ShortID="1053067861">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{E44EB733-F994-4079-87A4-0D80487E84CA}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{E44EB733-F994-4079-87A4-0D80487E84CA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_05" ID="{EC0714DE-44A9-46FA-AA79-0A182F82AE17}" ShortID="413126790">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{F2ED7053-4807-4443-8284-51DC2968159F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{F2ED7053-4807-4443-8284-51DC2968159F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_06" ID="{C756CF6C-EDE1-4BE5-A652-4535A752B3EE}" ShortID="932446160">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{2C120922-CEFB-415D-ABC8-834BF13B8FF3}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{2C120922-CEFB-415D-ABC8-834BF13B8FF3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silent_07" ID="{E3A17B91-67FC-4710-B8C7-721612C72293}" ShortID="665796703">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>97</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Files-001-001" ID="{FE7FB307-694B-46DC-8487-61AE0D461F82}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.385639064359349"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.6661669654762"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Files-001-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777228108"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Files-001-001" ID="{FE7FB307-694B-46DC-8487-61AE0D461F82}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{073560CC-8146-48A7-977B-462BFB4C4024}">
@@ -2053,6 +2415,258 @@
 														<ActiveSource Name="Birds_calls-010" ID="{DB43C0BA-B3CF-4FDE-B096-A4C2EB141B8C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="silence" ID="{018E4782-A73E-4BC7-AECF-6730CE721F21}" ShortID="391800300">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{6A5AB178-E609-410F-A81E-EF10C6060439}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{6A5AB178-E609-410F-A81E-EF10C6060439}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_01" ID="{488D4996-BBCA-4A50-8F18-6133D0AFBEF1}" ShortID="787463247">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{0A93CAC9-8201-4C30-B3E7-47F7E0920327}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{0A93CAC9-8201-4C30-B3E7-47F7E0920327}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_02" ID="{C9D35810-9716-4B74-9FB9-26CCBBEA3935}" ShortID="63208691">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{8B220DDE-67AC-44E8-ACEE-CB57BDD51DFD}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{8B220DDE-67AC-44E8-ACEE-CB57BDD51DFD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_03" ID="{3244504C-944D-41D2-A66C-9F23586D8F77}" ShortID="201406829">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{1BAF1516-BCE3-41B8-8033-A5ABFC8F7CC4}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{1BAF1516-BCE3-41B8-8033-A5ABFC8F7CC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_04" ID="{9FE4C017-4722-4E31-B904-2367227AC090}" ShortID="274099354">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{A281C231-C5BC-464C-89A3-1C39BC6C6176}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{A281C231-C5BC-464C-89A3-1C39BC6C6176}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_05" ID="{855D39C0-6B13-4E42-AD78-CDF257D85D3D}" ShortID="843537032">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{476B4EA2-C281-4777-B6D8-0D31B780A1A9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{476B4EA2-C281-4777-B6D8-0D31B780A1A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_06" ID="{2C35D6B9-314E-432B-9AF0-7AF74BE77C7B}" ShortID="189155246">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds_calls-001" ID="{991A959C-F469-4AAB-BC08-B6FD44EDD238}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0643336083452171"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0584850984956518"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.912367536532168"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.31035183542348"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Birds_calls-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="367290990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds_calls-001" ID="{991A959C-F469-4AAB-BC08-B6FD44EDD238}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{1321327B-5E55-4903-90E7-3B80612B79AC}">
@@ -2248,7 +2862,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-7</Value>
+														<Value>-11</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -2595,6 +3209,346 @@
 														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{A155DF80-98F0-45DB-B997-7ECA739ED9D8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="silence_01" ID="{00A3BD3F-41B5-478D-9CC3-8BE7B1C553B5}" ShortID="752541695">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{B064F9A7-3391-48F8-B839-326809729731}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{B064F9A7-3391-48F8-B839-326809729731}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_02" ID="{E480C0EC-55BA-4A5C-9FE9-AC17CF5F5C89}" ShortID="522377953">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{B8750278-ED38-4333-B273-6E10D4904CF5}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{B8750278-ED38-4333-B273-6E10D4904CF5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_03" ID="{E4624E03-A802-4681-867D-FD100770D684}" ShortID="324603004">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{3DB87C57-3316-4E1C-9297-768720611989}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{3DB87C57-3316-4E1C-9297-768720611989}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_04" ID="{FF541671-ABF3-45D9-AB18-1982591F3B40}" ShortID="886206402">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{96B241F4-F4A4-4F60-81ED-5C21AF5C7F14}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{96B241F4-F4A4-4F60-81ED-5C21AF5C7F14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_05" ID="{A4A69BF2-1532-415D-B531-CE7C9DDEA26B}" ShortID="316008096">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{866ABE5A-3049-490D-9C30-46BDA7B46243}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{866ABE5A-3049-490D-9C30-46BDA7B46243}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_06" ID="{8598590A-DA10-4381-B2D6-50BEE0EBEF73}" ShortID="816762784">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{569881FE-A527-43A9-8D15-2F576A2C39C8}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{569881FE-A527-43A9-8D15-2F576A2C39C8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_07" ID="{E2D4602C-B915-4971-9315-CE2068DC4D57}" ShortID="678163312">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{C8389AAC-1A1C-4894-A8CA-679EA97B8C1F}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{C8389AAC-1A1C-4894-A8CA-679EA97B8C1F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_08" ID="{58F78748-757A-43F1-91A2-7B17E63A93FB}" ShortID="1053823969">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{BD9E94E1-5746-4443-9D72-2D4F2EE6B768}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{BD9E94E1-5746-4443-9D72-2D4F2EE6B768}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_09" ID="{8239174E-0CB8-4F43-90E7-37150E3CA6A5}" ShortID="512076200">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{57670B1B-1DA4-4AB1-B770-27B54E0B03A0}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{57670B1B-1DA4-4AB1-B770-27B54E0B03A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_10" ID="{3EBC7448-9C0C-4266-A418-5C7FB927B2C7}" ShortID="942220614">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>92</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{824231D4-A3C2-44D2-A83C-B02B436808AC}">
+															<Language>SFX</Language>
+															<AudioFile>Animals, Primate, Gibbon, Leather Doublet SND124329.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="200708736"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Animals, Primate, Gibbon, Leather Doublet SND124329" ID="{824231D4-A3C2-44D2-A83C-B02B436808AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{14A999E1-6AF7-469B-90F2-B1542A05A9A2}">
@@ -2739,7 +3693,7 @@
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-9</Value>
+														<Value>-17</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -3092,6 +4046,180 @@
 														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382 1" ID="{DAFF8F6D-7827-4B85-88F3-A740085DE4C2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="silence" ID="{9A90B273-6860-43DC-83AD-4D7DCF7AA866}" ShortID="113202576">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{6024E0AC-7FAA-456D-AB99-E4B72B8DD2BC}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{6024E0AC-7FAA-456D-AB99-E4B72B8DD2BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_01" ID="{4F709987-F4C3-49EE-B807-61A8293BB10D}" ShortID="754923881">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{370F6715-7897-40B0-B96D-488C5DE9EBF2}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{370F6715-7897-40B0-B96D-488C5DE9EBF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_02" ID="{B534BB53-4803-4324-A40F-5DAF7FE1A302}" ShortID="57585161">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{4DB28650-9E7C-4CBC-B95F-940D287CB804}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{4DB28650-9E7C-4CBC-B95F-940D287CB804}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_03" ID="{F88EFF8F-AC1A-4698-8727-BC5214B695C6}" ShortID="509066775">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{D3004F85-90E3-464A-913C-302F2266F3FB}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{D3004F85-90E3-464A-913C-302F2266F3FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_04" ID="{C4C3914B-97AE-40EA-BEF7-863471C7EE87}" ShortID="1017849202">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{7BDD595C-D78F-4E1B-B417-800FAED00070}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{7BDD595C-D78F-4E1B-B417-800FAED00070}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="silence_05" ID="{41C53467-AF3B-46B4-9DBD-9481F8942B9D}" ShortID="1068035299">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-96</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{E8AB6878-950E-473D-B4DC-7508FA20DCDD}">
+															<Language>SFX</Language>
+															<AudioFile>Birds, Songbird, Hedge Sparrow Song SND90382.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641614990"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Birds, Songbird, Hedge Sparrow Song SND90382" ID="{E8AB6878-950E-473D-B4DC-7508FA20DCDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -3105,6 +4233,13 @@
 						<Folder Name="Footsteps" ID="{A8897850-C21E-4C76-8A9E-DA524364DECC}" ShortID="953767111">
 							<ChildrenList>
 								<SwitchContainer Name="FTS" ID="{0A5BB0A2-62DF-467E-BC50-A5A2E4E80B01}" ShortID="506988270">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
@@ -4637,6 +5772,16 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Grenadier" ID="{D2248A75-1572-4D84-9DB1-A6073D4D6BDE}" ShortID="854307014">
+							<ChildrenList>
+								<Folder Name="ThrowPlayer" ID="{1E4B4666-02C3-4FD5-8185-114D1998F8DD}" ShortID="231117485"/>
+								<Folder Name="DeathPlayer" ID="{F9A77819-8029-42A0-8D92-704114480C2C}" ShortID="76970933"/>
+								<Folder Name="DamagePlayer" ID="{6FCFC2D8-51E1-4866-A9F0-E378A2B1D9D1}" ShortID="487609947"/>
+								<Folder Name="FootstepPlayer" ID="{FB069D28-67D1-43C4-95D0-CC9A4D07BC14}" ShortID="676148577"/>
+								<Folder Name="ShieldUpPlayer" ID="{1E118295-517C-464F-8C46-8FBC674A9232}" ShortID="138449273"/>
+								<Folder Name="PunchPlayer" ID="{110DB02E-975E-4670-94A8-28B368229067}" ShortID="77855331"/>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Pressure_Points" ID="{6C2764E1-5F03-44AA-99D8-25E175B14497}" ShortID="104975184">
@@ -5019,7 +6164,7 @@
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -5583,6 +6728,13 @@
 				<Folder Name="Music_2" ID="{F7128600-CA15-4B2B-840D-891DB5B3DA86}" ShortID="164103012">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Music" ID="{AA2B4039-C948-4813-B7D8-84BC9D332497}" ShortID="453392333">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>

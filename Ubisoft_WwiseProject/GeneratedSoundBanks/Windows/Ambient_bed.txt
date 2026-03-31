@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	765412309	Play_General_ambience			\Default Work Unit\Play_General_ambience	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	933120181	general_ambience	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\4C\{4CA25D12-C1CA-E294-A43D-E060E1CCF468}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience_2\Ambient_bed\General_ambience\general_ambience		17962732
+	933120181	general_ambience	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\4C\{4CA25D12-C1CA-E294-A43D-E060E1CCF468}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_bed\General_ambience\general_ambience		17962732
 

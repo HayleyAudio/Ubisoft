@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1411345944	outside_default			\Default Work Unit\Master Audio Bus\outside_default	
+

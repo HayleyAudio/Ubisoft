@@ -29,6 +29,22 @@ namespace AK
         static const AkUniqueID PLAY_TEST = 3187507146U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace REVERB_ZONES
+        {
+            static const AkUniqueID GROUP = 4284131077U;
+
+            namespace STATE
+            {
+                static const AkUniqueID INSIDE_CAVE = 449395535U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OUTSIDE_DEFAULT = 1411345944U;
+            } // namespace STATE
+        } // namespace REVERB_ZONES
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace TERRAIN
@@ -66,6 +82,12 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID INSIDE_CAVE = 449395535U;
+        static const AkUniqueID OUTSIDE_DEFAULT = 1411345944U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

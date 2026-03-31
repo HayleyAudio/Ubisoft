@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{56E68884-3EA0-4592-A2CF-4E9439498FA7}",
     "Language": "SFX",
-    "Hash": "{E73B4F10-2800-2504-A198-BB80CD2F1D09}",
+    "Hash": "{67FDF781-67D4-B784-959C-2778DB86FA93}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music\\Level_1_music_alt",
     "ShortName": "Level_1_music_alt",
     "Path": "Level_1_music_alt.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Musical, Loop, Cinema, Games, Action, Future Battle Cinematic Action, Distorted Pulse, Mystic Melody SND66837.wav",
-      "CachePath": "A5/{A5250C5A-13CA-5D4C-733D-E4B74314E241}.wem"
+      "CachePath": "96/{969446B8-0747-785A-A932-F0C2CE455EE1}.wem"
      }
     ],
     "Events": [
@@ -40,6 +40,6 @@
     ]
    }
   ],
-  "FileHash": "{CEC1CD29-2A6D-3A79-CC35-4BAB3C7DBD79}"
+  "FileHash": "{01B87711-6900-AE34-952A-F8AAF4D2282D}"
  }
 }

@@ -1,5 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	4284131077	Reverb_Zones			\Default Work Unit\Reverb_Zones	
+
+State	ID	Name	State Group			Notes
+	449395535	Inside_cave	Reverb_Zones			
+	748895195	None	Reverb_Zones			
+	1411345944	Outside_default	Reverb_Zones			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	449395535	inside_cave			\Default Work Unit\Master Audio Bus\inside_cave	
+	1411345944	outside_default			\Default Work Unit\Master Audio Bus\outside_default	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

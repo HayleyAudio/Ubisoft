@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "449395535",
+    "Type": "Bus",
+    "GUID": "{477B702E-9C87-4398-B38F-9E95E1EDAFF8}",
+    "Language": "SFX",
+    "Hash": "{11501B75-8A25-6AB1-21A4-6A667B8D5DF5}",
+    "ObjectPath": "inside_cave",
+    "ShortName": "inside_cave",
+    "Path": "Bus/inside_cave.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "449395535",
+      "Name": "inside_cave",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\inside_cave",
+      "GUID": "{477B702E-9C87-4398-B38F-9E95E1EDAFF8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7CAB6C7B-9C00-1805-3107-90842B6044D9}"
+ }
+}

@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{517343BE-9F11-27A3-5276-72E75FD53C87}",
+    "Hash": "{9C238F71-EC2B-B599-53AB-26869E24DCF7}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -40,6 +50,55 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "449395535",
+      "Name": "inside_cave",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\inside_cave",
+      "GUID": "{477B702E-9C87-4398-B38F-9E95E1EDAFF8}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1411345944",
+      "Name": "outside_default",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\outside_default",
+      "GUID": "{64F11DAA-3E95-42F8-89A5-E9413843FB76}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4284131077",
+      "Name": "Reverb_Zones",
+      "ObjectPath": "\\States\\Default Work Unit\\Reverb_Zones",
+      "GUID": "{1048158A-AD7A-4B8A-A880-8D109FE95E4F}",
+      "States": [
+       {
+        "Id": "449395535",
+        "Name": "Inside_cave",
+        "ObjectPath": "\\States\\Default Work Unit\\Reverb_Zones\\Inside_cave",
+        "GUID": "{1863294E-1262-49F2-BFED-61C8CA70D523}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Reverb_Zones\\None",
+        "GUID": "{E9659978-1980-4761-8386-B183DA9F721D}"
+       },
+       {
+        "Id": "1411345944",
+        "Name": "Outside_default",
+        "ObjectPath": "\\States\\Default Work Unit\\Reverb_Zones\\Outside_default",
+        "GUID": "{8BF761E0-9C32-4C6A-9ACE-80A8F6AEF4F0}"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -90,6 +149,6 @@
     ]
    }
   ],
-  "FileHash": "{B96CD799-24C7-C686-A068-87BE97980819}"
+  "FileHash": "{E650D7E2-0AF7-2DE3-4BE5-366BA5CEDA49}"
  }
 }
