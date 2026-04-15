@@ -88,6 +88,13 @@
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>
 						</SoundBank>
+						<SoundBank Name="Grenadier" ID="{01066569-E77E-4572-9D27-68041A1C1F54}">
+							<ObjectInclusionList>
+								<ObjectRef Name="Play_Footstep_mechanics_blend" ID="{D39A550C-63F9-4260-A0B8-1FC2FB3EE36F}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

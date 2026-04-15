@@ -157,6 +157,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep_mechanics_blend" ID="{D39A550C-63F9-4260-A0B8-1FC2FB3EE36F}">
+					<ChildrenList>
+						<Action Name="" ID="{A6122ACD-0FCD-4AF4-A09E-F3F58A46D107}" ShortID="1038051766">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_mechanics_blend" ID="{2F66A170-845D-43CE-874B-03CC8BAE6CAD}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

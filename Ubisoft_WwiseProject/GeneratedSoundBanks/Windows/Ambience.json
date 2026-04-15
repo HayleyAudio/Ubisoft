@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FBDDD38B-54F5-413A-86EA-65C252C25DF2}",
     "Language": "SFX",
-    "Hash": "{311AAC4E-89D2-0C38-F5F2-5B254D2FD779}",
+    "Hash": "{C2F02401-6B02-DA96-FD42-32F3403116EA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-017.wav",
-      "CachePath": "07/{07069CA3-F914-DA40-848C-4DDF48389DFB}.wem"
+      "CachePath": "1B/{1B7B3A64-7ADB-18A4-BBF6-6B24178F646D}.wem"
      },
      {
       "Id": "21442520",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-010.wav",
-      "CachePath": "FF/{FF150EF8-E58D-12EA-438E-C6F4C867E225}.wem"
+      "CachePath": "F6/{F60EDD84-D209-DADE-60E7-0ABE171ACC12}.wem"
      },
      {
       "Id": "30290735",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-004.wav",
-      "CachePath": "03/{03F9F738-AF98-EF61-5A90-4F119A556173}.wem"
+      "CachePath": "AC/{AC70B433-255D-ADAF-710B-1E6F9D51CC41}.wem"
      },
      {
       "Id": "89216790",
@@ -101,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-020.wav",
-      "CachePath": "A2/{A261C50A-6E21-C98A-64E1-0F6CA79EC1D1}.wem"
+      "CachePath": "F0/{F02C2B49-8496-142A-3336-893E6A0533D1}.wem"
      },
      {
       "Id": "108072599",
@@ -141,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-003.wav",
-      "CachePath": "43/{43D9FE6F-A9E4-5DFF-ABAE-93AC63066412}.wem"
+      "CachePath": "4E/{4E2C2346-66EF-3A36-547B-799CEDE13635}.wem"
      },
      {
       "Id": "168022806",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-019.wav",
-      "CachePath": "4C/{4CF0BD2D-9214-1E1F-D576-7DD95E5D417D}.wem"
+      "CachePath": "88/{88DB4B0D-196F-6CB8-C642-9A686D4C8C93}.wem"
      },
      {
       "Id": "171546992",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-011.wav",
-      "CachePath": "2F/{2F909DA5-3A2B-4344-B2FB-FFD0343919FD}.wem"
+      "CachePath": "14/{146364BD-3957-E77A-346D-DE16475EEC98}.wem"
      },
      {
       "Id": "200708736",
@@ -197,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-014.wav",
-      "CachePath": "8A/{8A150568-A1CF-F8C7-F916-68DB3B077A2C}.wem"
+      "CachePath": "AC/{AC9193A9-E771-F1EF-6E38-8E28ED7C625D}.wem"
      },
      {
       "Id": "288065772",
@@ -229,7 +229,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-002.wav",
-      "CachePath": "6B/{6B17B4B7-C1E7-A28C-F745-C3E1CE84692B}.wem"
+      "CachePath": "EA/{EAC6D8D5-B7A8-9BDC-5C80-1EAD2B612AE0}.wem"
      },
      {
       "Id": "314304865",
@@ -245,7 +245,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-013.wav",
-      "CachePath": "A2/{A29D75F9-0A4C-560F-62B8-26A995BDB018}.wem"
+      "CachePath": "BD/{BDD70361-1079-A049-EBE7-3E24A5C8AA9E}.wem"
      },
      {
       "Id": "367290990",
@@ -309,7 +309,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-015.wav",
-      "CachePath": "32/{3252E80C-C978-69BA-06CE-02A0719AF5A9}.wem"
+      "CachePath": "76/{763E927A-B1A5-C0E7-4C6E-20D9AA28B602}.wem"
      },
      {
       "Id": "582844474",
@@ -349,7 +349,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-006.wav",
-      "CachePath": "FA/{FAB7E921-0C84-3B95-9ED2-FA90CF4DD21C}.wem"
+      "CachePath": "0E/{0ED464E5-2BBE-E0BA-25BB-17E96504232C}.wem"
      },
      {
       "Id": "599001729",
@@ -477,7 +477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-021.wav",
-      "CachePath": "56/{56666A3D-F3FD-D831-8655-37BAF9A4D427}.wem"
+      "CachePath": "A3/{A3ABAB2D-7786-5248-6184-8BC9CF42B19F}.wem"
      },
      {
       "Id": "774013622",
@@ -509,7 +509,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-005.wav",
-      "CachePath": "B7/{B716437A-432D-83FD-107E-CD0D2E53DFC5}.wem"
+      "CachePath": "09/{097EA21A-71DF-873F-CB2D-B87116C17FBD}.wem"
      },
      {
       "Id": "815949926",
@@ -533,7 +533,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-008.wav",
-      "CachePath": "8D/{8DCC8A76-208F-22D5-CC8E-946026B5DA45}.wem"
+      "CachePath": "D3/{D383A4E1-9E7C-0DAF-1F2B-A1DC57FFE0CF}.wem"
      },
      {
       "Id": "861777971",
@@ -549,7 +549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-018.wav",
-      "CachePath": "2F/{2FE48626-6562-AB29-DCF6-5B6C2F7F061A}.wem"
+      "CachePath": "0B/{0B723651-79EA-63FD-E7E7-2AE3DE9677E3}.wem"
      },
      {
       "Id": "891031091",
@@ -637,7 +637,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Rainforest_Frogs-016.wav",
-      "CachePath": "25/{25939C8F-1D47-4C89-A337-AF21613A3899}.wem"
+      "CachePath": "AF/{AF080C6B-986B-2C59-212E-0765D322881F}.wem"
      }
     ],
     "Plugins": {
@@ -1009,6 +1009,6 @@
     ]
    }
   ],
-  "FileHash": "{AD69C539-7A3A-26DE-F850-6A61E276CC40}"
+  "FileHash": "{14F96152-3A0E-217D-5892-D6DECBA2E76D}"
  }
 }

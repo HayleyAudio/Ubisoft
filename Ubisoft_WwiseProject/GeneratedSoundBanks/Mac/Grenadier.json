@@ -1,0 +1,154 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1343892184",
+    "Type": "User",
+    "GUID": "{01066569-E77E-4572-9D27-68041A1C1F54}",
+    "Language": "SFX",
+    "Hash": "{1FDF3425-7C2A-B529-DBA3-A8BB96FC68B0}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Grenadier",
+    "ShortName": "Grenadier",
+    "Path": "Grenadier.bnk",
+    "Media": [
+     {
+      "Id": "30087436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4.wav",
+      "CachePath": "DC/{DC8DFF49-DD3E-3120-AC16-1F4B14980FFA}.wem"
+     },
+     {
+      "Id": "48775375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 2.wav",
+      "CachePath": "DB/{DBBF66F2-5F12-A0C6-007D-15D29BF01001}.wem"
+     },
+     {
+      "Id": "113740396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3.wav",
+      "CachePath": "70/{70752234-DB6D-402F-5CCA-B26F0248DFB7}.wem"
+     },
+     {
+      "Id": "321806983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 5.wav",
+      "CachePath": "A5/{A5FB9F79-13E9-0C52-1F1B-C60E4EFC0B1A}.wem"
+     },
+     {
+      "Id": "375350170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 3.wav",
+      "CachePath": "65/{6596CE29-EABF-087F-E12A-BFEC3AC377CF}.wem"
+     },
+     {
+      "Id": "562368916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4.wav",
+      "CachePath": "C4/{C412770B-4B4E-9DD3-AA79-BE225E89A9FC}.wem"
+     },
+     {
+      "Id": "908659216",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 4.wav",
+      "CachePath": "AF/{AF773062-1A4C-FB02-083B-ABFCEEEFC378}.wem"
+     },
+     {
+      "Id": "1004793844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1.wav",
+      "CachePath": "B1/{B194357E-473D-80BF-0E55-D4D9C1CCE46B}.wem"
+     },
+     {
+      "Id": "1063101089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 3.wav",
+      "CachePath": "63/{63B9153C-D15C-8CD4-F33C-5F276B71BEA4}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "535667444",
+       "Name": "Bathroom1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Bathroom1",
+       "GUID": "{1969D30F-C165-45C0-B290-DE3ED07A7AA3}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3737078160",
+      "Name": "Play_Footstep_mechanics_blend",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep_mechanics_blend",
+      "GUID": "{D39A550C-63F9-4260-A0B8-1FC2FB3EE36F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.88269794",
+      "DurationMax": "1.8691562",
+      "MediaRefs": [
+       {
+        "Id": "30087436"
+       },
+       {
+        "Id": "48775375"
+       },
+       {
+        "Id": "113740396"
+       },
+       {
+        "Id": "321806983"
+       },
+       {
+        "Id": "375350170"
+       },
+       {
+        "Id": "562368916"
+       },
+       {
+        "Id": "908659216"
+       },
+       {
+        "Id": "1004793844"
+       },
+       {
+        "Id": "1063101089"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "535667444"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{244A499B-D583-14BA-1944-BBB13C107279}"
+ }
+}

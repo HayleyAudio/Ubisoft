@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTROYED = 4197951507U;
         static const AkUniqueID PLAY_DIRT = 2498286841U;
+        static const AkUniqueID PLAY_FOOTSTEP_MECHANICS_BLEND = 3737078160U;
         static const AkUniqueID PLAY_FTS = 2538959999U;
         static const AkUniqueID PLAY_FTS_01 = 2416274499U;
         static const AkUniqueID PLAY_GENERAL_AMBIENCE = 765412309U;
@@ -71,6 +72,7 @@ namespace AK
         static const AkUniqueID AMBIENT_BED = 3417108331U;
         static const AkUniqueID CHARACTER_LEVEL_01 = 594866469U;
         static const AkUniqueID ENEMIES = 2242381963U;
+        static const AkUniqueID GRENADIER = 1343892184U;
         static const AkUniqueID LEVEL_1_MUSIC_ALT = 1390255753U;
         static const AkUniqueID MUSIC_LEVEL_1 = 3508274217U;
         static const AkUniqueID NEW = 444308101U;

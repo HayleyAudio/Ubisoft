@@ -5777,7 +5777,267 @@
 								<Folder Name="ThrowPlayer" ID="{1E4B4666-02C3-4FD5-8185-114D1998F8DD}" ShortID="231117485"/>
 								<Folder Name="DeathPlayer" ID="{F9A77819-8029-42A0-8D92-704114480C2C}" ShortID="76970933"/>
 								<Folder Name="DamagePlayer" ID="{6FCFC2D8-51E1-4866-A9F0-E378A2B1D9D1}" ShortID="487609947"/>
-								<Folder Name="FootstepPlayer" ID="{FB069D28-67D1-43C4-95D0-CC9A4D07BC14}" ShortID="676148577"/>
+								<Folder Name="FootstepPlayer" ID="{FB069D28-67D1-43C4-95D0-CC9A4D07BC14}" ShortID="676148577">
+									<ChildrenList>
+										<BlendContainer Name="Footstep_mechanics_blend" ID="{2F66A170-845D-43CE-874B-03CC8BAE6CAD}" ShortID="1036943759">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Random_Footsteps" ID="{CC8EEF16-3FC2-4ECC-9867-B0DA9701CEFD}" ShortID="640711783">
+													<PropertyList>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-110</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1" ID="{5BEBE133-B0B6-484B-9122-EE45D9ECBD5D}" ShortID="623435101">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1" ID="{A4692C12-2C89-473D-BFFA-8FC693A146F4}">
+																	<Language>SFX</Language>
+																	<AudioFile>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1004793844"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 1" ID="{A4692C12-2C89-473D-BFFA-8FC693A146F4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3" ID="{C9E3828E-CA66-4F7C-912C-BB029E41BDE7}" ShortID="903287922">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3" ID="{8E007751-7144-4FC0-9170-58E2647A9443}">
+																	<Language>SFX</Language>
+																	<AudioFile>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="113740396"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3" ID="{8E007751-7144-4FC0-9170-58E2647A9443}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4" ID="{7AE693BC-8420-46D3-8BE4-C0440EDB5299}" ShortID="893039567">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4" ID="{445A83CE-493E-4F4C-B74A-7902AFC78691}">
+																	<Language>SFX</Language>
+																	<AudioFile>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="30087436"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 4" ID="{445A83CE-493E-4F4C-B74A-7902AFC78691}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 5" ID="{4FAB7F8E-444B-4447-97AC-5A022C703E74}" ShortID="258169837">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 5" ID="{9F2AE69D-ADA9-4F17-86F1-E484B77ED8B3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 5.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="321806983"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 5" ID="{9F2AE69D-ADA9-4F17-86F1-E484B77ED8B3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="Effects">
+															<Reference>
+																<Local>
+																	<EffectSlot Name="" ID="{C7954A8F-A58D-4C96-AAD7-E86390B54253}" ShortID="300838058">
+																		<ReferenceList>
+																			<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+																				<ObjectRef Name="Bathroom1" ID="{1969D30F-C165-45C0-B290-DE3ED07A7AA3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																			</Reference>
+																		</ReferenceList>
+																	</EffectSlot>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Mechanics" ID="{6CFC27AB-1E32-4C0F-A9CF-3030940A78E9}" ShortID="675218524">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 3" ID="{B470F05B-D8C6-46CC-931F-E59A3E4DD90A}" ShortID="632784590">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 3" ID="{D9046F8E-2B55-407B-AE57-733504333C9A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1063101089"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 3" ID="{D9046F8E-2B55-407B-AE57-733504333C9A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 4" ID="{8F830432-20E0-4193-A738-E94FDDF651F8}" ShortID="921039846">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 4" ID="{E88F5AEE-4296-4F7C-B64F-2F495774AA9A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="908659216"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mechanical, Gears, Mechanical Reload, Metal Impact, Smooth, Ding, Variations SND117050 4" ID="{E88F5AEE-4296-4F7C-B64F-2F495774AA9A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 2" ID="{FAEA8845-871B-4587-AB07-AE67131D885A}" ShortID="210245864">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 2" ID="{1B8F3032-D0C3-4DED-8246-D9086089B4F1}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="48775375"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 2" ID="{1B8F3032-D0C3-4DED-8246-D9086089B4F1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 3" ID="{A87E1E59-6005-47AB-ACB7-8CE495040D88}" ShortID="116283279">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 3" ID="{535AC7FF-CF11-451C-B675-BB1000E94BA5}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="375350170"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 3" ID="{535AC7FF-CF11-451C-B675-BB1000E94BA5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4" ID="{CA7DDCDF-0681-44B3-99EE-21FE9D825928}" ShortID="602543616">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4" ID="{F73A52B5-C4E0-4A6E-923F-0D081249E7F5}">
+																	<Language>SFX</Language>
+																	<AudioFile>Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="562368916"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4" ID="{F73A52B5-C4E0-4A6E-923F-0D081249E7F5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="ShieldUpPlayer" ID="{1E118295-517C-464F-8C46-8FBC674A9232}" ShortID="138449273"/>
 								<Folder Name="PunchPlayer" ID="{110DB02E-975E-4670-94A8-28B368229067}" ShortID="77855331"/>
 							</ChildrenList>
@@ -6211,7 +6471,7 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="free space " ID="{B91BC3D5-B39E-4098-9E41-D27CEBA66314}" ShortID="571139904">
+				<Folder Name="free space" ID="{B91BC3D5-B39E-4098-9E41-D27CEBA66314}" ShortID="571139904">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Random_Low_bed" ID="{D9D0FA08-D3DC-441D-9EE8-C69B8A74746C}" ShortID="295869793">
 							<PropertyList>
