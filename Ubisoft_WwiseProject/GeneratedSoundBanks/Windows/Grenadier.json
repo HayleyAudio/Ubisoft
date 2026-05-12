@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{01066569-E77E-4572-9D27-68041A1C1F54}",
     "Language": "SFX",
-    "Hash": "{1FDF3425-7C2A-B529-DBA3-A8BB96FC68B0}",
+    "Hash": "{57147C91-8D2B-75B6-A1DB-D62506E04671}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Grenadier",
     "ShortName": "Grenadier",
     "Path": "Grenadier.bnk",
@@ -106,6 +106,7 @@
       "Name": "Play_Footstep_mechanics_blend",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep_mechanics_blend",
       "GUID": "{D39A550C-63F9-4260-A0B8-1FC2FB3EE36F}",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "0.88269794",
       "DurationMax": "1.8691562",
@@ -149,6 +150,6 @@
     ]
    }
   ],
-  "FileHash": "{A285C9A4-AE2A-4FBB-AC3E-814951796F46}"
+  "FileHash": "{72959B7D-A23E-D6AB-06C9-C3BE809E67CE}"
  }
 }

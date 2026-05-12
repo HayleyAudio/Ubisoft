@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "554650843",
+    "Type": "User",
+    "GUID": "{F85FD16E-EBEF-44EA-8D60-A3C8B19A4E02}",
+    "Language": "SFX",
+    "Hash": "{BF8F7B6F-6392-96F1-6597-13B9A3789FE5}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\spaceship",
+    "ShortName": "spaceship",
+    "Path": "spaceship.bnk",
+    "Media": [
+     {
+      "Id": "30444962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "station beep granulate sc pan -003.wav",
+      "CachePath": "19/{192AF518-F894-9780-4E22-AFC47891297C}.wem"
+     },
+     {
+      "Id": "426715283",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "space cymbal pitch down  .wav",
+      "CachePath": "B8/{B8928B82-A788-223E-1C45-2FDC18683AB6}.wem"
+     },
+     {
+      "Id": "440138591",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Sc GRAIN eq layer volume pitch texture-001.wav",
+      "CachePath": "DD/{DDD53C7F-3C70-6409-F050-785F60B2023B}.wem"
+     },
+     {
+      "Id": "548175999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "robot modulat synth reverse grain pitch speed .wav",
+      "CachePath": "8F/{8F58AA05-95FE-7AF8-6333-F88AA901A790}.wem"
+     },
+     {
+      "Id": "589786217",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_SpaceBreath_01.wav",
+      "CachePath": "61/{616D908A-C51A-C63B-B242-AE862018439A}.wem"
+     },
+     {
+      "Id": "627037080",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "violin harmonnics drone spectral.wav",
+      "CachePath": "B8/{B84701AB-140F-CE8A-C020-C1E62AD60787}.wem"
+     },
+     {
+      "Id": "709570547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_MirageMaze_01.wav",
+      "CachePath": "D1/{D18C3A73-1DBA-96F6-6FD8-C22078FCC64F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "311975177",
+      "Name": "Play_spaceship_ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_spaceship_ambience",
+      "GUID": "{07422E01-1CE9-4313-9AAD-09FC23BCC618}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "30444962"
+       },
+       {
+        "Id": "426715283"
+       },
+       {
+        "Id": "440138591"
+       },
+       {
+        "Id": "548175999"
+       },
+       {
+        "Id": "589786217"
+       },
+       {
+        "Id": "627037080"
+       },
+       {
+        "Id": "709570547"
+       }
+      ]
+     },
+     {
+      "Id": "197683299",
+      "Name": "Stop_spaceship_ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_spaceship_ambience",
+      "GUID": "{76703567-AEB0-4C34-B572-7651710C4C23}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6C897CE0-B293-6031-38D2-3B23C4FE1D39}"
+ }
+}

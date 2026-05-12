@@ -1,10 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
 	74052169	Play_staff_pedestal_magic			\Default Work Unit\Play_staff_pedestal_magic	
+	206572583	Play_magic			\Default Work Unit\Play_magic	
 	2847601794	Play_Huge_door			\Default Work Unit\Play_Huge_door	
+	3909353919	Stop_staff_pedestal_magic			\Default Work Unit\Stop_staff_pedestal_magic	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1735130781	Aliasing	Wwise Tremolo			
+	3164629247	Holy	Wwise RoomVerb			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3851006675	Secret_message_Distant	Wwise Harmonizer			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	232749425	huge_door-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\53\{53D8C586-8352-CDDB-B374-158DCFF0523D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-001		567664
+	247594275	Harpfairy	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\31\{31C306A6-6928-384C-CF58-93DD5C33068B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\magic_switches\magic\Harpfairy		1322232
+	335733385	HC_SpaceBreath_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\A7\{A7516D2B-58B9-131B-4A3E-5A282577E7D0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\HC_SpaceBreath_01		1660464
 	345108622	Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\DF\{DF36458E-1E41-424B-606D-88B42BED836B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Magic\Staff_pedstal\staff_pedestal_magic\magic_blend\Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473_01		4554072
-	730268273	huge_door-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\0B\{0B52BFF3-8C8F-13B4-C263-455BC01C76DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-003		1907528
+	585781233	piano string slide high 2 magic_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\25\{2508C559-0E20-94E5-817F-DA5287E0040F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\magic_switches\magic\piano string slide high 2 magic_01		357608
+	730268273	huge_door-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\60\{60239A04-906E-16AF-2303-B9FA60C38F7B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-003		1714964
+	861643562	piano string slide high 2 magic	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\95\{95F7CF38-AAEF-0A0C-BA46-ECBCEB80F212}.wem		\Actor-Mixer Hierarchy\Default Work Unit\magic_switches\magic\piano string slide high 2 magic		331076
 	975828155	huge_door-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\37\{375CA8FB-CCED-FEDC-C5EA-4B7BB90F17F4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pressure_Points\Huge_door\Huge_door\huge_door-002		1093772
 

@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1172822028	Play_Death			\Default Work Unit\Play_Death	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2791153688	Hall_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	623368422	enemy_dies-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\2D\{2D1FA8A0-AD50-0CA1-EF57-38EB89D8FE97}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-001		373076
-	727211642	enemy_dies-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\13\{139407BE-A6EB-7913-56BF-15D9907003B0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-002		141020
+	623368422	enemy_dies-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\9C\{9C5B80AB-F8B8-3570-7D24-86333E49140B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-001		373076
+	727211642	enemy_dies-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\92\{92F69053-C58C-722C-D2F0-8FFE281C93CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-002		137368
 	864462497	enemy_dies-004	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\75\{7568F287-2057-821A-C9C3-66F1BA0A4176}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-004		161880
-	974796990	enemy_dies-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\98\{986CA77F-8C00-7746-DEB7-221064DB3DDC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-003		107588
+	974796990	enemy_dies-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\B6\{B689F15E-5665-8BB6-DF2F-C18CA7FFF6BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper\Death\enemy_dies-003		107588
 

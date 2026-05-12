@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4122393694",
+    "Type": "User",
+    "GUID": "{56A50DF2-58FE-4EA1-87AC-64F99C6C6F48}",
+    "Language": "SFX",
+    "Hash": "{5FF57F79-7612-87FE-66A0-8DA350D6A4DB}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\cave",
+    "ShortName": "cave",
+    "Path": "cave.bnk",
+    "Media": [
+     {
+      "Id": "103321074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience, Underground, Cave, Magic, Cold, Deep, Wind, Eerie SND46573.wav",
+      "CachePath": "74/{740721B4-7F73-656F-2985-A24424891A48}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3602995889",
+      "Name": "Play_cave",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_cave",
+      "GUID": "{86B0A5A7-A9F4-4A27-85A0-B52ED38F354F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "103321074"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{141648E1-B570-E330-2F9A-3DEF6DC99D24}"
+ }
+}

@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3602995889	Play_cave			\Default Work Unit\Play_cave	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	64340058	Place			\Default Work Unit\Place	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Place			
+	554650843	Spaceship	Place			
+	748895195	None	Place			
+	4122393694	cave	Place			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	103321074	Ambience, Underground, Cave, Magic, Cold, Deep, Wind, Eerie SND46573	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\74\{740721B4-7F73-656F-2985-A24424891A48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\cave\cave\Ambience, Underground, Cave, Magic, Cold, Deep, Wind, Eerie SND46573		9984096
+

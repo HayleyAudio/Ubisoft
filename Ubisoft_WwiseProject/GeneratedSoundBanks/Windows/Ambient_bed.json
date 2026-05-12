@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A42536C7-5B89-4A56-996A-8088D03E4A65}",
     "Language": "SFX",
-    "Hash": "{F5D52765-3877-1C49-2FB4-BF63A7DD798A}",
+    "Hash": "{EE65AFEA-0A79-30C2-92E4-A2467E67356A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\Ambient_bed",
     "ShortName": "Ambient_bed",
     "Path": "Ambient_bed.bnk",
@@ -40,6 +40,6 @@
     ]
    }
   ],
-  "FileHash": "{851E79B9-58CF-FE66-E3C7-E417914C17FA}"
+  "FileHash": "{5819CF54-21BB-A68A-518A-CEEF358A63BB}"
  }
 }

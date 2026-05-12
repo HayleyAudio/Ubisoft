@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A8ACFADB-A8C9-43CB-95F7-EA7D7AD3D4A8}",
     "Language": "SFX",
-    "Hash": "{6198C772-8F03-3382-6A8F-ABC120910B2F}",
+    "Hash": "{72B892A4-0DF9-B77C-9974-CF87F9870186}",
     "ObjectPath": "Play_FTS_01",
     "ShortName": "Play_FTS_01",
     "Path": "Event/Play_FTS_01.bnk",
@@ -356,6 +356,6 @@
     ]
    }
   ],
-  "FileHash": "{FA7EB263-2F8E-B6B3-6D7D-05706A4D5E38}"
+  "FileHash": "{69C441C8-5570-7891-E64A-8A6381B60190}"
  }
 }

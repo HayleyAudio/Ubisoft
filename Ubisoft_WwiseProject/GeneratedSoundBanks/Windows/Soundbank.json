@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3901913F-3738-4651-89B3-E2D2A1A8D0F7}",
     "Language": "SFX",
-    "Hash": "{9608775E-29D3-45F9-8C8C-0266E145C493}",
+    "Hash": "{28C386EF-ACF6-C825-A2F0-5764F5DBB8F8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -80,6 +80,14 @@
       "CachePath": "E5/{E540F3A0-3D20-BA92-70F6-A4A77053D5EA}.wem"
      },
      {
+      "Id": "335733385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_SpaceBreath_01.wav",
+      "CachePath": "A7/{A7516D2B-58B9-131B-4A3E-5A282577E7D0}.wem"
+     },
+     {
       "Id": "345108622",
       "Language": "SFX",
       "Streaming": "false",
@@ -141,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-001.wav",
-      "CachePath": "2D/{2D1FA8A0-AD50-0CA1-EF57-38EB89D8FE97}.wem"
+      "CachePath": "9C/{9C5B80AB-F8B8-3570-7D24-86333E49140B}.wem"
      },
      {
       "Id": "630895102",
@@ -173,7 +181,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-002.wav",
-      "CachePath": "13/{139407BE-A6EB-7913-56BF-15D9907003B0}.wem"
+      "CachePath": "92/{92F69053-C58C-722C-D2F0-8FFE281C93CF}.wem"
      },
      {
       "Id": "730268273",
@@ -181,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "huge_door-003.wav",
-      "CachePath": "0B/{0B52BFF3-8C8F-13B4-C263-455BC01C76DC}.wem"
+      "CachePath": "60/{60239A04-906E-16AF-2303-B9FA60C38F7B}.wem"
      },
      {
       "Id": "760864040",
@@ -269,7 +277,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-003.wav",
-      "CachePath": "98/{986CA77F-8C00-7746-DEB7-221064DB3DDC}.wem"
+      "CachePath": "B6/{B689F15E-5665-8BB6-DF2F-C18CA7FFF6BB}.wem"
      },
      {
       "Id": "975828155",
@@ -296,6 +304,18 @@
       "CachePath": "8F/{8F198129-376A-46A9-80A7-7124A10B2AF9}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1172822028",
@@ -318,7 +338,14 @@
        {
         "Id": "974796990"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2791153688"
+        }
+       ]
+      }
      },
      {
       "Id": "4197951507",
@@ -459,11 +486,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Huge_door",
       "GUID": "{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}",
       "DurationType": "OneShot",
-      "DurationMin": "9.934542",
-      "DurationMax": "9.934542",
+      "DurationMin": "8.931601",
+      "DurationMax": "8.931601",
       "MediaRefs": [
        {
         "Id": "232749425"
+       },
+       {
+        "Id": "335733385"
        },
        {
         "Id": "730268273"
@@ -498,7 +528,7 @@
       "Name": "Play_staff_pedestal_magic",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_staff_pedestal_magic",
       "GUID": "{940C4E04-7B69-4BD8-826B-5B024E60F2D6}",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -589,6 +619,6 @@
     ]
    }
   ],
-  "FileHash": "{2E833EFD-ED97-441E-AD31-65A5A87B9968}"
+  "FileHash": "{F47C3EB0-C42C-9373-C955-9CD5EE47FB2E}"
  }
 }

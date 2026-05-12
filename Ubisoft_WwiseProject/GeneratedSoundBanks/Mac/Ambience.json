@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FBDDD38B-54F5-413A-86EA-65C252C25DF2}",
     "Language": "SFX",
-    "Hash": "{C2F02401-6B02-DA96-FD42-32F3403116EA}",
+    "Hash": "{C027772C-8546-37E1-FDD8-34FCA4A9B3D8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Ambience\\Ambience",
     "ShortName": "Ambience",
     "Path": "Ambience.bnk",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 2.wav",
-      "CachePath": "3D/{3DF6D8BD-5E84-1D85-5A99-B98920365767}.wem"
+      "CachePath": "5A/{5AA571C8-4DE1-74A6-6F7D-DB97646DB386}.wem"
      },
      {
       "Id": "80530150",
@@ -85,7 +85,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329 1.wav",
-      "CachePath": "6E/{6EAC9F3C-F8BB-0381-B6A2-D381723C18A7}.wem"
+      "CachePath": "98/{9855AF30-8F6F-0D05-E246-EFA4AE13BE7C}.wem"
      },
      {
       "Id": "95521112",
@@ -149,7 +149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Singing Gibbons 01 SND131431.wav",
-      "CachePath": "42/{42CC4E9D-04A2-741B-9267-DE323441FE03}.wem"
+      "CachePath": "3C/{3CC78221-29FB-6EBF-C838-A5F263076DEC}.wem"
      },
      {
       "Id": "170671540",
@@ -277,7 +277,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 1.wav",
-      "CachePath": "AA/{AA3719CD-77AA-B19E-D760-C23F68F4D277}.wem"
+      "CachePath": "44/{441997E1-00AD-58BF-EB80-F43248C5B0AF}.wem"
+     },
+     {
+      "Id": "446691424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329.wav",
+      "CachePath": "2C/{2C397513-552E-333D-74A5-F3E5BBCD336B}.wem"
      },
      {
       "Id": "501725792",
@@ -333,7 +341,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Leather Doublet SND124329 2.wav",
-      "CachePath": "94/{946E0C7E-7623-8630-D202-D7D10872C5BB}.wem"
+      "CachePath": "DA/{DAE846BF-810B-7A77-DC91-842BA85A6F62}.wem"
      },
      {
       "Id": "593279612",
@@ -381,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Singing Gibbons 01 SND131431 1.wav",
-      "CachePath": "48/{480B7CFB-708D-D4E2-6B06-92757199FCA1}.wem"
+      "CachePath": "D5/{D5E5E147-691F-A173-E465-5499E4CC0D6F}.wem"
      },
      {
       "Id": "629449457",
@@ -469,7 +477,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921.wav",
-      "CachePath": "79/{794A1B46-B4CB-370F-D183-5359526E7696}.wem"
+      "CachePath": "75/{75814B13-17C2-CA9F-CA07-C734425D588D}.wem"
      },
      {
       "Id": "724166388",
@@ -485,7 +493,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Primate, Gibbon, Vocalizing 01 SND0921 3.wav",
-      "CachePath": "3B/{3B0D8397-4EAE-9F19-753E-0D49148DFE2C}.wem"
+      "CachePath": "B5/{B54504CC-0C7E-6F2F-8D08-E18C2A318A09}.wem"
      },
      {
       "Id": "777228108",
@@ -709,6 +717,22 @@
        "LibId": "7536643"
       },
       {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3290519051",
+       "Name": "Aluminium_Tank",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Aluminium_Tank",
+       "GUID": "{0D20C91A-F750-47E0-AE32-00E5F2AA1272}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "3354577677",
        "Name": "Fast_LF_Tremolo",
        "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo",
@@ -832,6 +856,9 @@
        },
        {
         "Id": "428054725"
+       },
+       {
+        "Id": "446691424"
        },
        {
         "Id": "501725792"
@@ -998,6 +1025,12 @@
          "Id": "2662085913"
         },
         {
+         "Id": "3216246379"
+        },
+        {
+         "Id": "3290519051"
+        },
+        {
          "Id": "3354577677"
         },
         {
@@ -1009,6 +1042,6 @@
     ]
    }
   ],
-  "FileHash": "{AFB2E3BB-2E97-5476-907F-E37128EB4570}"
+  "FileHash": "{54F2590D-DCB7-F262-9332-8B532CC2F67D}"
  }
 }

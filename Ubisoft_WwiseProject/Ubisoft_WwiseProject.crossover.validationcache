@@ -29,12 +29,12 @@
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft_WwiseIntegrationTemp\Ubisoft_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1769501723" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Ubisoft_WwiseProject.wproj" DateLow="1771840154" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Ubisoft_WwiseProject.crossover.wsettings" DateLow="1775575358" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Ubisoft_WwiseProject.crossover.wsettings" DateLow="1778443186" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1773155358" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\States\Default Work Unit.wwu" DateLow="1774625409" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\States\Default Work Unit.wwu" DateLow="1778424696" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1773156634" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1778443168" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Queries\Factory Queries.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1769501795" DateHigh="0"/>
@@ -45,8 +45,8 @@
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1774626079" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1771842446" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Events\Default Work Unit.wwu" DateLow="1773156634" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Effects\Factory Effects.wwu" DateLow="1774626079" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Events\Default Work Unit.wwu" DateLow="1778443168" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Effects\Factory Effects.wwu" DateLow="1778422244" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1769501795" DateHigh="0"/>
@@ -54,5 +54,5 @@
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1769501795" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1775575347" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1778442718" DateHigh="0"/>
 </ValidationCache>

@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	197683299	Stop_spaceship_ambience			\Default Work Unit\Stop_spaceship_ambience	
+	311975177	Play_spaceship_ambience			\Default Work Unit\Play_spaceship_ambience	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	64340058	Place			\Default Work Unit\Place	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Place			
+	554650843	Spaceship	Place			
+	748895195	None	Place			
+	4122393694	cave	Place			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	30444962	station beep granulate sc pan -003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\19\{192AF518-F894-9780-4E22-AFC47891297C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\station beep granulate sc pan -003		1376228
+	426715283	space cymbal pitch down	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\B8\{B8928B82-A788-223E-1C45-2FDC18683AB6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\space cymbal pitch down		2318724
+	440138591	Sc GRAIN eq layer volume pitch texture-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\DD\{DDD53C7F-3C70-6409-F050-785F60B2023B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\Sc GRAIN eq layer volume pitch texture-001		2334440
+	548175999	robot modulat synth reverse grain pitch speed	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\8F\{8F58AA05-95FE-7AF8-6333-F88AA901A790}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\robot modulat synth reverse grain pitch speed		1443228
+	589786217	HC_SpaceBreath_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\61\{616D908A-C51A-C63B-B242-AE862018439A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\HC_SpaceBreath_01		1844112
+	627037080	violin harmonnics drone spectral	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\B8\{B84701AB-140F-CE8A-C020-C1E62AD60787}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\violin harmonnics drone spectral		2544564
+	709570547	HC_MirageMaze_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\D1\{D18C3A73-1DBA-96F6-6FD8-C22078FCC64F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spaceship\spaceship_ambience\blend\HC_MirageMaze_01		2339380
+

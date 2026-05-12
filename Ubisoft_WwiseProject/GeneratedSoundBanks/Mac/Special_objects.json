@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FB6D7DE7-C024-4C97-8F56-BF9864FDA73C}",
     "Language": "SFX",
-    "Hash": "{A40EB074-7A89-AA48-5285-91C73C9C2D99}",
+    "Hash": "{E4377338-2541-08F8-9996-95E3601D4AC7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Enviroment\\Special_objects",
     "ShortName": "Special_objects",
     "Path": "Special_objects.bnk",
@@ -24,6 +24,22 @@
       "CachePath": "53/{53D8C586-8352-CDDB-B374-158DCFF0523D}.wem"
      },
      {
+      "Id": "247594275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Harpfairy.wav",
+      "CachePath": "31/{31C306A6-6928-384C-CF58-93DD5C33068B}.wem"
+     },
+     {
+      "Id": "335733385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_SpaceBreath_01.wav",
+      "CachePath": "A7/{A7516D2B-58B9-131B-4A3E-5A282577E7D0}.wem"
+     },
+     {
       "Id": "345108622",
       "Language": "SFX",
       "Streaming": "false",
@@ -32,12 +48,28 @@
       "CachePath": "DF/{DF36458E-1E41-424B-606D-88B42BED836B}.wem"
      },
      {
+      "Id": "585781233",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "piano string slide high 2 magic.wav",
+      "CachePath": "25/{2508C559-0E20-94E5-817F-DA5287E0040F}.wem"
+     },
+     {
       "Id": "730268273",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "huge_door-003.wav",
-      "CachePath": "0B/{0B52BFF3-8C8F-13B4-C263-455BC01C76DC}.wem"
+      "CachePath": "60/{60239A04-906E-16AF-2303-B9FA60C38F7B}.wem"
+     },
+     {
+      "Id": "861643562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "piano string slide high 2 magic.wav",
+      "CachePath": "95/{95F7CF38-AAEF-0A0C-BA46-ECBCEB80F212}.wem"
      },
      {
       "Id": "975828155",
@@ -48,6 +80,42 @@
       "CachePath": "37/{375CA8FB-CCED-FEDC-C5EA-4B7BB90F17F4}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1735130781",
+       "Name": "Aliasing",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Aliasing",
+       "GUID": "{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3354577677",
+       "Name": "Fast_LF_Tremolo",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo",
+       "GUID": "{3B09A271-D9D4-4A4E-B545-F681E8313E5F}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3851006675",
+       "Name": "Secret_message_Distant",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Secret_message_Distant",
+       "GUID": "{54C3F2D2-6B8D-4873-A383-2F6F7189C076}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2847601794",
@@ -55,11 +123,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Huge_door",
       "GUID": "{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}",
       "DurationType": "OneShot",
-      "DurationMin": "9.934542",
-      "DurationMax": "9.934542",
+      "DurationMin": "8.931601",
+      "DurationMax": "8.931601",
       "MediaRefs": [
        {
         "Id": "232749425"
+       },
+       {
+        "Id": "335733385"
        },
        {
         "Id": "730268273"
@@ -70,21 +141,67 @@
       ]
      },
      {
+      "Id": "206572583",
+      "Name": "Play_magic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_magic",
+      "GUID": "{49BEC46D-81EF-45C3-9901-9BBBA036875E}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.791796",
+      "DurationMax": "12.791796",
+      "MediaRefs": [
+       {
+        "Id": "247594275"
+       },
+       {
+        "Id": "585781233"
+       },
+       {
+        "Id": "861643562"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1735130781"
+        },
+        {
+         "Id": "3164629247"
+        },
+        {
+         "Id": "3354577677"
+        },
+        {
+         "Id": "3851006675"
+        }
+       ]
+      }
+     },
+     {
       "Id": "74052169",
       "Name": "Play_staff_pedestal_magic",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_staff_pedestal_magic",
       "GUID": "{940C4E04-7B69-4BD8-826B-5B024E60F2D6}",
-      "MaxAttenuation": "10",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "345108622"
        }
       ]
+     },
+     {
+      "Id": "3909353919",
+      "Name": "Stop_staff_pedestal_magic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_staff_pedestal_magic",
+      "GUID": "{EEE5E980-9A5D-4F32-86C8-4CF7F467C592}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{02F9D9E2-F729-CDB0-2BF3-E7C5748E0FDC}"
+  "FileHash": "{3EBC8957-CFA1-2D78-CFE1-90B840284414}"
  }
 }

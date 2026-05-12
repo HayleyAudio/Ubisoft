@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "203100604",
+    "Type": "User",
+    "GUID": "{D9183B20-D04A-47DC-A96F-2B46C903FE10}",
+    "Language": "SFX",
+    "Hash": "{03D053E7-732F-7772-C696-83767D3C3497}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI\\Buttons",
+    "ShortName": "Buttons",
+    "Path": "Buttons.bnk",
+    "Media": [
+     {
+      "Id": "876035842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flutefairy.wav",
+      "CachePath": "AF/{AF7C762E-FCB3-201F-64ED-046A9C894DF5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2099555730",
+      "Name": "Play_BUTTON",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_BUTTON",
+      "GUID": "{63B8E989-5FA0-4F4B-9C32-A4B7FD8310B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.69449276",
+      "DurationMax": "1.9643222",
+      "MediaRefs": [
+       {
+        "Id": "876035842"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B471BAD7-A491-B311-3B80-173C2D9AD0EB}"
+ }
+}

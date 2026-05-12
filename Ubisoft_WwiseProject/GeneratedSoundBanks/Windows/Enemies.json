@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3298F7A1-8311-4218-A5C1-094347268248}",
     "Language": "SFX",
-    "Hash": "{DACDD97D-F8B8-BD9C-CA71-D0339668E176}",
+    "Hash": "{5A641085-BAB8-977C-0464-7EBA24E07572}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Enemies",
     "ShortName": "Enemies",
     "Path": "Enemies.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-001.wav",
-      "CachePath": "2D/{2D1FA8A0-AD50-0CA1-EF57-38EB89D8FE97}.wem"
+      "CachePath": "9C/{9C5B80AB-F8B8-3570-7D24-86333E49140B}.wem"
      },
      {
       "Id": "727211642",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-002.wav",
-      "CachePath": "13/{139407BE-A6EB-7913-56BF-15D9907003B0}.wem"
+      "CachePath": "92/{92F69053-C58C-722C-D2F0-8FFE281C93CF}.wem"
      },
      {
       "Id": "864462497",
@@ -45,9 +45,21 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "enemy_dies-003.wav",
-      "CachePath": "98/{986CA77F-8C00-7746-DEB7-221064DB3DDC}.wem"
+      "CachePath": "B6/{B689F15E-5665-8BB6-DF2F-C18CA7FFF6BB}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1172822028",
@@ -70,11 +82,18 @@
        {
         "Id": "974796990"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2791153688"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{B94C4D46-1455-9428-EF93-09C44914BD25}"
+  "FileHash": "{90C936B2-8140-4FB7-BA69-D6DC59205532}"
  }
 }

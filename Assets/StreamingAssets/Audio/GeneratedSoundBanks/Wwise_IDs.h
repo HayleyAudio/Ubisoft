@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ATTACK = 1519321238U;
+        static const AkUniqueID PLAY_BUTTON = 2099555730U;
+        static const AkUniqueID PLAY_CAVE = 3602995889U;
+        static const AkUniqueID PLAY_DAMAGE = 784302017U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DESTROYED = 4197951507U;
         static const AkUniqueID PLAY_DIRT = 2498286841U;
@@ -21,17 +25,36 @@ namespace AK
         static const AkUniqueID PLAY_FTS_01 = 2416274499U;
         static const AkUniqueID PLAY_GENERAL_AMBIENCE = 765412309U;
         static const AkUniqueID PLAY_HUGE_DOOR = 2847601794U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
+        static const AkUniqueID PLAY_LAND = 4285282925U;
+        static const AkUniqueID PLAY_MAGIC = 206572583U;
         static const AkUniqueID PLAY_MAIN_RAINFOREST = 2283471261U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_RRANDOM_MUSIC = 3099668085U;
+        static const AkUniqueID PLAY_SPACESHIP_AMBIENCE = 311975177U;
         static const AkUniqueID PLAY_STAFF_HIT = 2291232698U;
         static const AkUniqueID PLAY_STAFF_PEDESTAL_MAGIC = 74052169U;
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
+        static const AkUniqueID STOP_SPACESHIP_AMBIENCE = 197683299U;
+        static const AkUniqueID STOP_STAFF_PEDESTAL_MAGIC = 3909353919U;
     } // namespace EVENTS
 
     namespace STATES
     {
+        namespace PLACE
+        {
+            static const AkUniqueID GROUP = 64340058U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OUTSIDE = 438105790U;
+                static const AkUniqueID SPACESHIP = 554650843U;
+            } // namespace STATE
+        } // namespace PLACE
+
         namespace REVERB_ZONES
         {
             static const AkUniqueID GROUP = 4284131077U;
@@ -70,6 +93,8 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID AMBIENT_BED = 3417108331U;
+        static const AkUniqueID BUTTONS = 203100604U;
+        static const AkUniqueID CAVE = 4122393694U;
         static const AkUniqueID CHARACTER_LEVEL_01 = 594866469U;
         static const AkUniqueID ENEMIES = 2242381963U;
         static const AkUniqueID GRENADIER = 1343892184U;
@@ -77,6 +102,7 @@ namespace AK
         static const AkUniqueID MUSIC_LEVEL_1 = 3508274217U;
         static const AkUniqueID NEW = 444308101U;
         static const AkUniqueID SOUNDBANK = 1661994096U;
+        static const AkUniqueID SPACESHIP = 554650843U;
         static const AkUniqueID SPECIAL_OBJECTS = 1848894379U;
     } // namespace BANKS
 

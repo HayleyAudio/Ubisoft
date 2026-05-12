@@ -1,7 +1,12 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	64340058	Place			\Default Work Unit\Place	
 	4284131077	Reverb_Zones			\Default Work Unit\Reverb_Zones	
 
 State	ID	Name	State Group			Notes
+	438105790	Outside	Place			
+	554650843	Spaceship	Place			
+	748895195	None	Place			
+	4122393694	cave	Place			
 	449395535	Inside_cave	Reverb_Zones			
 	748895195	None	Reverb_Zones			
 	1411345944	Outside_default	Reverb_Zones			

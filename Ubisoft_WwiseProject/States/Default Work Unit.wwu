@@ -10,6 +10,14 @@
 						<State Name="Inside_cave" ID="{1863294E-1262-49F2-BFED-61C8CA70D523}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Place" ID="{B518A502-55E3-49CC-A6B5-074ABE859683}">
+					<ChildrenList>
+						<State Name="None" ID="{B83C83BB-AF44-425D-950B-33F697D7C762}"/>
+						<State Name="Outside" ID="{4D4569ED-5AFA-4907-8B8D-96A85CBA4920}"/>
+						<State Name="cave" ID="{0E44E1F4-19AA-4183-9CA5-14EDEE9ECD9B}"/>
+						<State Name="Spaceship" ID="{2CDF9D5A-62B8-4D23-AAEE-624E9FE4B7D8}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

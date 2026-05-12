@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{7BD46EE9-2D0A-44EF-9ADC-5ED2D107A07B}",
     "Language": "SFX",
-    "Hash": "{C4F64B2B-E8F8-B167-94C3-10F3AEB7AE4A}",
+    "Hash": "{F85F7FF4-2702-73B3-C151-101A9DA08DC5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Character_level_01",
     "ShortName": "Character_level_01",
     "Path": "Character_level_01.bnk",
@@ -24,12 +24,36 @@
       "CachePath": "29/{29F1896E-8A4C-4AFB-6218-D37E1C54DA92}.wem"
      },
      {
+      "Id": "127517377",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_land_down_2ch_15_04_26-003.wav",
+      "CachePath": "D0/{D0745ADB-297C-DC5B-B4A9-8C59BB964FE4}.wem"
+     },
+     {
       "Id": "144919740",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989.wav",
       "CachePath": "E5/{E56ADB4E-49B9-E6B0-1835-E341A6A3F7A9}.wem"
+     },
+     {
+      "Id": "175533264",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_jump_up_2ch_15_04_26-003.wav",
+      "CachePath": "15/{15CE8997-D446-FE2D-A37A-144AED640D28}.wem"
+     },
+     {
+      "Id": "191541877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_jump_up_2ch_15_04_26-002.wav",
+      "CachePath": "10/{10EC207F-19EF-B9B8-837C-2903D7871690}.wem"
      },
      {
       "Id": "245800867",
@@ -64,12 +88,28 @@
       "CachePath": "1E/{1E2DFD03-E9E6-143D-3223-D873B422A57F}.wem"
      },
      {
+      "Id": "395503352",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_takes_damage_2ch_15_04_26-003.wav",
+      "CachePath": "6B/{6B154F06-FA79-7B9A-C242-E5A7E0B594A8}.wem"
+     },
+     {
       "Id": "468084830",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AK_FS_Run_Gravel_02.wav",
       "CachePath": "86/{8674BD6B-F7AD-6384-72C4-73062F193BCB}.wem"
+     },
+     {
+      "Id": "523559155",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_takes_damage_2ch_15_04_26-002.wav",
+      "CachePath": "14/{1403995A-08C4-A58F-7237-EE5E722604A2}.wem"
      },
      {
       "Id": "542412849",
@@ -144,12 +184,28 @@
       "CachePath": "86/{86807691-21CC-81DD-F7DD-BC4F19D72232}.wem"
      },
      {
+      "Id": "774080526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_takes_damage_2ch_15_04_26-001.wav",
+      "CachePath": "E1/{E1C88F34-E872-E229-3FEE-5677BCE8DA9F}.wem"
+     },
+     {
       "Id": "807761794",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Staff_Hit-002.wav",
       "CachePath": "74/{74DC4DD9-1E2B-D879-CE28-CF459554EFC7}.wem"
+     },
+     {
+      "Id": "858230495",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_land_down_2ch_15_04_26-002.wav",
+      "CachePath": "E0/{E05A642F-1DE7-9ECB-4F53-CCC24EEA661E}.wem"
      },
      {
       "Id": "866613999",
@@ -168,12 +224,28 @@
       "CachePath": "9B/{9BF9D4DF-CF6B-AE4B-AC2B-31A2FEE53B01}.wem"
      },
      {
+      "Id": "909433450",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_jump_up_2ch_15_04_26-001.wav",
+      "CachePath": "D9/{D9C7145C-8617-BC10-B349-F8BDAA9C707B}.wem"
+     },
+     {
       "Id": "925715677",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "FS_Dirt_02.wav",
       "CachePath": "13/{13E53E2B-07B5-5A64-7EE2-2FF157ED84C5}.wem"
+     },
+     {
+      "Id": "930376611",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_land_down_2ch_15_04_26-001.wav",
+      "CachePath": "CF/{CF87E82B-90CE-8FC0-E9F6-76B881876771}.wem"
      },
      {
       "Id": "956836167",
@@ -200,6 +272,14 @@
       "CachePath": "47/{47F348DA-AEE4-930D-EE89-4939801C9F5F}.wem"
      },
      {
+      "Id": "1006516062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HC_character_effort_attack_2ch_15_04_26.wav",
+      "CachePath": "F3/{F3446229-66A6-8BD9-BDB4-FE71786B3934}.wem"
+     },
+     {
       "Id": "1051481461",
       "Language": "SFX",
       "Streaming": "false",
@@ -217,6 +297,40 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1519321238",
+      "Name": "Play_attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_attack",
+      "GUID": "{D535306D-19C0-4D48-88CA-4843547664D5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6851665",
+      "DurationMax": "1.9469614",
+      "MediaRefs": [
+       {
+        "Id": "1006516062"
+       }
+      ]
+     },
+     {
+      "Id": "784302017",
+      "Name": "Play_damage",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_damage",
+      "GUID": "{92487EB2-6A18-4356-BC8D-A327C21C852C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2782291",
+      "DurationMax": "1.4861041",
+      "MediaRefs": [
+       {
+        "Id": "395503352"
+       },
+       {
+        "Id": "523559155"
+       },
+       {
+        "Id": "774080526"
+       }
+      ]
+     },
      {
       "Id": "2538959999",
       "Name": "Play_FTS",
@@ -337,6 +451,46 @@
       ]
      },
      {
+      "Id": "3689126666",
+      "Name": "Play_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_jump",
+      "GUID": "{5E02F32D-F203-4F22-BE52-E67E4D0355AA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5891294",
+      "DurationMax": "2.0574894",
+      "MediaRefs": [
+       {
+        "Id": "175533264"
+       },
+       {
+        "Id": "191541877"
+       },
+       {
+        "Id": "909433450"
+       }
+      ]
+     },
+     {
+      "Id": "4285282925",
+      "Name": "Play_land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_land",
+      "GUID": "{F7B5D72D-BB75-44C7-BE04-FBCA0CFAC14B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33271363",
+      "DurationMax": "2.82302",
+      "MediaRefs": [
+       {
+        "Id": "127517377"
+       },
+       {
+        "Id": "858230495"
+       },
+       {
+        "Id": "930376611"
+       }
+      ]
+     },
+     {
       "Id": "2291232698",
       "Name": "Play_Staff_Hit",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Staff_Hit",
@@ -425,6 +579,6 @@
     ]
    }
   ],
-  "FileHash": "{B4AA6FDF-74F4-DE35-22FD-BEE917914986}"
+  "FileHash": "{8F3AF16D-ADB0-F4C4-9946-F7CCDB7BB0D1}"
  }
 }

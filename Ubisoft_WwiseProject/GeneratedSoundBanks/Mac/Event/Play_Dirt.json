@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F2C7D898-8BFF-417A-9C33-EA2D9ADB6FA6}",
     "Language": "SFX",
-    "Hash": "{FF71EFEE-4BB3-8CB2-F74B-3C0092A627EC}",
+    "Hash": "{76010B54-2293-8F5A-A312-5ED807715FE9}",
     "ObjectPath": "Play_Dirt",
     "ShortName": "Play_Dirt",
     "Path": "Event/Play_Dirt.bnk",
@@ -125,6 +125,6 @@
     ]
    }
   ],
-  "FileHash": "{4F75D001-A47E-7FCF-6D4E-E82B755752C4}"
+  "FileHash": "{2572F4DF-3077-5367-AB26-86AA2B289FAE}"
  }
 }

@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	784302017	Play_damage			\Default Work Unit\Play_damage	
+	1519321238	Play_attack			\Default Work Unit\Play_attack	
 	2291232698	Play_Staff_Hit			\Default Work Unit\Play_Staff_Hit	
 	2538959999	Play_FTS			\Default Work Unit\Play_FTS	
+	3689126666	Play_jump			\Default Work Unit\Play_jump	
 	3707491759	Play_Staff_Swing			\Default Work Unit\Play_Staff_Swing	
+	4285282925	Play_land			\Default Work Unit\Play_land	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	354267144	Terrain			\Default Work Unit\Terrain	
@@ -16,12 +20,17 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	60736706	Footstep_Walking_Hardwood_04	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\29\{29F1896E-8A4C-4AFB-6218-D37E1C54DA92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_04		21798
+	127517377	HC_character_effort_land_down_2ch_15_04_26-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\D0\{D0745ADB-297C-DC5B-B4A9-8C59BB964FE4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\land\HC_character_effort_land_down_2ch_15_04_26-003		297664
 	144919740	Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E5\{E56ADB4E-49B9-E6B0-1835-E341A6A3F7A9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Water\water_ft\Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989		65364
+	175533264	HC_character_effort_jump_up_2ch_15_04_26-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\15\{15CE8997-D446-FE2D-A37A-144AED640D28}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\jump\HC_character_effort_jump_up_2ch_15_04_26-003		392860
+	191541877	HC_character_effort_jump_up_2ch_15_04_26-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\10\{10EC207F-19EF-B9B8-837C-2903D7871690}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\jump\HC_character_effort_jump_up_2ch_15_04_26-002		169812
 	245800867	Footstep_Walking_Hardmetal_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\09\{09551186-5F03-97C2-9956-996EDD7B280E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_02		24180
 	279177834	FS_Dirt_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\77\{7705EF54-DC90-3654-A458-07821385283A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Dirt\FS_Dirt_03		43464
 	330817010	Footstep_Walking_Hardmetal_05	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E5\{E540F3A0-3D20-BA92-70F6-A4A77053D5EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_05		33796
 	359078019	Staff_Swish-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\1E\{1E2DFD03-E9E6-143D-3223-D873B422A57F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Swing\Staff_Swish-003		146184
+	395503352	HC_character_effort_takes_damage_2ch_15_04_26-003	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\6B\{6B154F06-FA79-7B9A-C242-E5A7E0B594A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\damage\HC_character_effort_takes_damage_2ch_15_04_26-003		245516
 	468084830	AK_FS_Run_Gravel_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\86\{8674BD6B-F7AD-6384-72C4-73062F193BCB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Gravel\AK_FS_Run_Gravel_02		25666
+	523559155	HC_character_effort_takes_damage_2ch_15_04_26-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\14\{1403995A-08C4-A58F-7237-EE5E722604A2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\damage\HC_character_effort_takes_damage_2ch_15_04_26-002		271988
 	542412849	Footstep_Walking_Hardwood_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\42\{42DBC691-6E2E-5F8D-8737-1D657921AFC8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_03		24924
 	562654317	Staff_Swish-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\22\{22750088-B750-C146-D6A4-79D17EF6E6F2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Swing\Staff_Swish-001		274756
 	581879529	FS_Gravel_01_Heel	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\70\{70CC5F58-936E-1722-F44F-67D28AE996FF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Water\water_ft\FS_Gravel_01_Heel		30010
@@ -31,13 +40,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	725573373	FS_Dirt_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\87\{87FF5C08-EEC4-F517-435C-9AA11156D5EA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Dirt\FS_Dirt_01		35744
 	760864040	Staff_Hit-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\BB\{BBAB3F7E-624B-003C-DC9C-E759EBC71E57}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Hit\Staff_Hit-001		148004
 	760964689	AK_FS_Run_Gravel_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\86\{86807691-21CC-81DD-F7DD-BC4F19D72232}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Gravel\AK_FS_Run_Gravel_01		24648
+	774080526	HC_character_effort_takes_damage_2ch_15_04_26-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E1\{E1C88F34-E872-E229-3FEE-5677BCE8DA9F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\damage\HC_character_effort_takes_damage_2ch_15_04_26-001		285428
 	807761794	Staff_Hit-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\74\{74DC4DD9-1E2B-D879-CE28-CF459554EFC7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Hit\Staff_Hit-002		475348
+	858230495	HC_character_effort_land_down_2ch_15_04_26-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\E0\{E05A642F-1DE7-9ECB-4F53-CCC24EEA661E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\land\HC_character_effort_land_down_2ch_15_04_26-002		519136
 	866613999	Footstep_Walking_Hardmetal_01	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\CB\{CB9CD5C8-1278-5978-0A25-55A58AE7A09B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_01		29912
 	899101480	Footstep_Walking_Hardmetal_04	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\9B\{9BF9D4DF-CF6B-AE4B-AC2B-31A2FEE53B01}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_04		29644
+	909433450	HC_character_effort_jump_up_2ch_15_04_26-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\D9\{D9C7145C-8617-BC10-B349-F8BDAA9C707B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\jump\HC_character_effort_jump_up_2ch_15_04_26-001		113536
 	925715677	FS_Dirt_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\13\{13E53E2B-07B5-5A64-7EE2-2FF157ED84C5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Dirt\FS_Dirt_02		42550
+	930376611	HC_character_effort_land_down_2ch_15_04_26-001	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\CF\{CF87E82B-90CE-8FC0-E9F6-76B881876771}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\land\HC_character_effort_land_down_2ch_15_04_26-001		68760
 	956836167	Footstep_Walking_Hardwood_02	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\B2\{B21A638F-A494-1C2B-781F-1ED08877F090}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Wood\Footstep_Walking_Hardwood_02		24924
 	963593159	FS_Dirt_04	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\27\{27E8F152-ED1C-6A4A-28A2-440486DB92CC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Dirt\FS_Dirt_04		40366
 	972055532	Footstep_Walking_Hardmetal_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\47\{47F348DA-AEE4-930D-EE89-4939801C9F5F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Footsteps\FTS\Metal\Footstep_Walking_Hardmetal_03		37640
+	1006516062	HC_character_effort_attack_2ch_15_04_26	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\F3\{F3446229-66A6-8BD9-BDB4-FE71786B3934}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Efforts\attack\HC_character_effort_attack_2ch_15_04_26		358064
 	1051481461	Staff_Hit_03	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\9F\{9FA6D113-370C-3755-7867-5540F6BA6A39}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Hit\Staff_Hit_03		293936
 	1065845762	Staff_Swish-002	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\8F\{8F198129-376A-46A9-80A7-7124A10B2AF9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\Staff\Staff_Swing\Staff_Swish-002		579932
 

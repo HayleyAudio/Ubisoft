@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{F0FDAE43-B38E-4A36-7E0F-AF21F7BCFE04}",
+    "Hash": "{1D345A75-F45C-50D5-C40E-E0147BAB83E4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -74,6 +74,38 @@
      }
     ],
     "StateGroups": [
+     {
+      "Id": "64340058",
+      "Name": "Place",
+      "ObjectPath": "\\States\\Default Work Unit\\Place",
+      "GUID": "{B518A502-55E3-49CC-A6B5-074ABE859683}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\Place\\Outside",
+        "GUID": "{4D4569ED-5AFA-4907-8B8D-96A85CBA4920}"
+       },
+       {
+        "Id": "554650843",
+        "Name": "Spaceship",
+        "ObjectPath": "\\States\\Default Work Unit\\Place\\Spaceship",
+        "GUID": "{2CDF9D5A-62B8-4D23-AAEE-624E9FE4B7D8}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Place\\None",
+        "GUID": "{B83C83BB-AF44-425D-950B-33F697D7C762}"
+       },
+       {
+        "Id": "4122393694",
+        "Name": "cave",
+        "ObjectPath": "\\States\\Default Work Unit\\Place\\cave",
+        "GUID": "{0E44E1F4-19AA-4183-9CA5-14EDEE9ECD9B}"
+       }
+      ]
+     },
      {
       "Id": "4284131077",
       "Name": "Reverb_Zones",
@@ -149,6 +181,6 @@
     ]
    }
   ],
-  "FileHash": "{0F645F5F-5EA6-95DE-FC08-9A012E9CB30B}"
+  "FileHash": "{6B38739A-E8C7-95D1-BAAF-5C17026DB725}"
  }
 }
