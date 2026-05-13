@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{FB6D7DE7-C024-4C97-8F56-BF9864FDA73C}",
     "Language": "SFX",
-    "Hash": "{E4377338-2541-08F8-9996-95E3601D4AC7}",
+    "Hash": "{A7BF4E8C-5DEE-E088-4E06-939259FC1DF9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Enviroment\\Special_objects",
     "ShortName": "Special_objects",
     "Path": "Special_objects.bnk",
@@ -133,7 +133,13 @@
         "Id": "335733385"
        },
        {
+        "Id": "585781233"
+       },
+       {
         "Id": "730268273"
+       },
+       {
+        "Id": "861643562"
        },
        {
         "Id": "975828155"
@@ -145,9 +151,7 @@
       "Name": "Play_magic",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_magic",
       "GUID": "{49BEC46D-81EF-45C3-9901-9BBBA036875E}",
-      "DurationType": "OneShot",
-      "DurationMin": "12.791796",
-      "DurationMax": "12.791796",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "247594275"
@@ -202,6 +206,6 @@
     ]
    }
   ],
-  "FileHash": "{9C7BA1AB-1A76-2DD8-4A00-AE4231067C5E}"
+  "FileHash": "{C8421ABC-3AB6-2896-AC78-480F6DB90F4F}"
  }
 }

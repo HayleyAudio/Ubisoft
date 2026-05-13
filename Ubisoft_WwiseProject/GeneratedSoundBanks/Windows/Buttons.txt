@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	2099555730	Play_BUTTON			\Default Work Unit\Play_BUTTON	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	876035842	Flutefairy	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\AF\{AF7C762E-FCB3-201F-64ED-046A9C894DF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BUTTON\Flutefairy		212164
+	876035842	Flutefairy	Y:\Projects\GitHub\Ubisoft\Ubisoft_WwiseProject\.cache\FF\{FFE29D41-B11D-54DB-5FA9-68425057654D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BUTTON\Flutefairy		212164
 

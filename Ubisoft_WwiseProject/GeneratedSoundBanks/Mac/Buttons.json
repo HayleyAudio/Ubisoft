@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{D9183B20-D04A-47DC-A96F-2B46C903FE10}",
     "Language": "SFX",
-    "Hash": "{03D053E7-732F-7772-C696-83767D3C3497}",
+    "Hash": "{DA596A5F-602B-486B-2047-1E44EF698822}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\UI\\Buttons",
     "ShortName": "Buttons",
     "Path": "Buttons.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Flutefairy.wav",
-      "CachePath": "AF/{AF7C762E-FCB3-201F-64ED-046A9C894DF5}.wem"
+      "CachePath": "FF/{FFE29D41-B11D-54DB-5FA9-68425057654D}.wem"
      }
     ],
     "Events": [
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{F63D83E6-741D-3135-BBFC-04ADD2CD3114}"
+  "FileHash": "{98A82693-2979-856D-A1F8-A63AF41926A9}"
  }
 }

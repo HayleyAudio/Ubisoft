@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{3901913F-3738-4651-89B3-E2D2A1A8D0F7}",
     "Language": "SFX",
-    "Hash": "{28C386EF-ACF6-C825-A2F0-5764F5DBB8F8}",
+    "Hash": "{EA203554-DD13-D84E-4080-7276211FC8B9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Soundbank",
     "ShortName": "Soundbank",
     "Path": "Soundbank.bnk",
@@ -144,6 +144,14 @@
       "CachePath": "3D/{3D5093FB-D022-59E2-2622-E423E4B87BA0}.wem"
      },
      {
+      "Id": "585781233",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "piano string slide high 2 magic.wav",
+      "CachePath": "25/{2508C559-0E20-94E5-817F-DA5287E0040F}.wem"
+     },
+     {
       "Id": "623368422",
       "Language": "SFX",
       "Streaming": "false",
@@ -214,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "Staff_Hit-002.wav",
       "CachePath": "74/{74DC4DD9-1E2B-D879-CE28-CF459554EFC7}.wem"
+     },
+     {
+      "Id": "861643562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "piano string slide high 2 magic.wav",
+      "CachePath": "95/{95F7CF38-AAEF-0A0C-BA46-ECBCEB80F212}.wem"
      },
      {
       "Id": "864462497",
@@ -496,7 +512,13 @@
         "Id": "335733385"
        },
        {
+        "Id": "585781233"
+       },
+       {
         "Id": "730268273"
+       },
+       {
+        "Id": "861643562"
        },
        {
         "Id": "975828155"
@@ -619,6 +641,6 @@
     ]
    }
   ],
-  "FileHash": "{4472240A-1465-B8CA-CF36-D0F82E2CDF08}"
+  "FileHash": "{BC21CA35-76A1-8EB2-2B45-DA72B8A873BA}"
  }
 }

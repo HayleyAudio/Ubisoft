@@ -6891,6 +6891,153 @@
 												<ActiveSource Name="HC_SpaceBreath_01" ID="{17D0CF35-1395-49C3-A693-AC9C22860BE3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="piano string slide high 2 magic" ID="{67F795BC-465E-4F35-8164-6F30CAD53382}" ShortID="875054709">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>63</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="piano string slide high 2 magic" ID="{EF07303C-27D9-4366-85BB-5E362EB5E317}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0760015805128652"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0398207441662812"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.2052775899515"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.92913467279459"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>piano string slide high 2 magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="861643562"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="piano string slide high 2 magic" ID="{EF07303C-27D9-4366-85BB-5E362EB5E317}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="piano string slide high 2 magic_01" ID="{B766A450-9809-4259-A742-5540D2DD15D4}" ShortID="36474503">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>63</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-550</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="piano string slide high 2 magic" ID="{4815F3E9-4DDD-47B4-A944-C535B51339AE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0760015805128652"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.00911303486815385"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.798400441751311"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.66044221643598"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>piano string slide high 2 magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="585781233"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="piano string slide high 2 magic" ID="{4815F3E9-4DDD-47B4-A944-C535B51339AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Harpfairy" ID="{D9715C70-B80A-4F81-9C1A-E9A1D05EBF36}" ShortID="78495569">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>58</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B60979C5-6B65-46A1-921A-9A53D9238DFD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Harpfairy" ID="{C5AB99FA-CD52-4CE8-90B2-A0D5D8559D48}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="12.6840265750234"/>
+														<Property Name="TrimEnd" Type="Real64" Value="20.1791351223933"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Harpfairy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="247594275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{DAE58C0C-7D05-4829-B8A4-A7F6D653E01E}" ShortID="87265417">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+																		<ObjectRef Name="Secret_message_Distant" ID="{54C3F2D2-6B8D-4873-A383-2F6F7189C076}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{1D6320DA-2DE4-4D02-8C0D-FC1AA905C02C}" ShortID="534706668">
+																<ReferenceList>
+																	<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="Harpfairy" ID="{C5AB99FA-CD52-4CE8-90B2-A0D5D8559D48}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
@@ -6906,7 +7053,7 @@
 										<Property Name="3DPosition" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-3</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -8662,6 +8809,9 @@
 				<Folder Name="magic_switches" ID="{D45040DA-4F46-4205-8C20-89A0D8EA7240}" ShortID="54881363">
 					<ChildrenList>
 						<BlendContainer Name="magic" ID="{5FA5489D-4697-4EC8-A3E8-A4861C36552D}" ShortID="988544977">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{04F8068D-D482-4F07-8683-050E02952107}"/>
@@ -8679,7 +8829,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="5"/>
 									</PropertyList>
 									<ReferenceList>
@@ -8718,7 +8867,6 @@
 											</ValueList>
 										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="LoopCount" Type="int32" Value="5"/>
 										<Property Name="Pitch" Type="int32">
 											<ValueList>
@@ -8762,6 +8910,11 @@
 											</ValueList>
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
