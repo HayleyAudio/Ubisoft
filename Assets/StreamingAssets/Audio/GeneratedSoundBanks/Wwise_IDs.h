@@ -17,7 +17,10 @@ namespace AK
         static const AkUniqueID PLAY_BUTTON = 2099555730U;
         static const AkUniqueID PLAY_CAVE = 3602995889U;
         static const AkUniqueID PLAY_DAMAGE = 784302017U;
+        static const AkUniqueID PLAY_DAMAGE_MONSTER = 4161725086U;
+        static const AkUniqueID PLAY_DAMAGE_MONSTER_01 = 623845996U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_DEATH_MONSTER = 1295842767U;
         static const AkUniqueID PLAY_DESTROYED = 4197951507U;
         static const AkUniqueID PLAY_DIRT = 2498286841U;
         static const AkUniqueID PLAY_FOOTSTEP_MECHANICS_BLEND = 3737078160U;
@@ -30,12 +33,15 @@ namespace AK
         static const AkUniqueID PLAY_MAGIC = 206572583U;
         static const AkUniqueID PLAY_MAIN_RAINFOREST = 2283471261U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
+        static const AkUniqueID PLAY_RANDOM_FOLEY = 1821282047U;
         static const AkUniqueID PLAY_RRANDOM_MUSIC = 3099668085U;
         static const AkUniqueID PLAY_SPACESHIP_AMBIENCE = 311975177U;
+        static const AkUniqueID PLAY_SPLASH = 3948925255U;
         static const AkUniqueID PLAY_STAFF_HIT = 2291232698U;
         static const AkUniqueID PLAY_STAFF_PEDESTAL_MAGIC = 74052169U;
         static const AkUniqueID PLAY_STAFF_SWING = 3707491759U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
+        static const AkUniqueID STOP_MAGIC_BLEND = 74518965U;
         static const AkUniqueID STOP_SPACESHIP_AMBIENCE = 197683299U;
         static const AkUniqueID STOP_STAFF_PEDESTAL_MAGIC = 3909353919U;
     } // namespace EVENTS

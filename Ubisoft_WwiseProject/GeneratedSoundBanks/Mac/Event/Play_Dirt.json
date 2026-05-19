@@ -10,11 +10,20 @@
     "Type": "Event",
     "GUID": "{F2C7D898-8BFF-417A-9C33-EA2D9ADB6FA6}",
     "Language": "SFX",
-    "Hash": "{76010B54-2293-8F5A-A312-5ED807715FE9}",
+    "Hash": "{2565F16D-E464-1AEE-B077-E131089FDDFE}",
     "ObjectPath": "Play_Dirt",
     "ShortName": "Play_Dirt",
     "Path": "Event/Play_Dirt.bnk",
     "Media": [
+     {
+      "Id": "144919740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Water, Movement, Steps, Wading, Woman Swimming, Dip, Reaction In Danish, Spring, Some Birds SND114989.wav",
+      "Path": "Media/144919740.wem",
+      "CachePath": "E5/{E56ADB4E-49B9-E6B0-1835-E341A6A3F7A9}.wem"
+     },
      {
       "Id": "279177834",
       "Language": "SFX",
@@ -60,8 +69,11 @@
       "GUID": "{F2C7D898-8BFF-417A-9C33-EA2D9ADB6FA6}",
       "DurationType": "OneShot",
       "DurationMin": "0.33986706",
-      "DurationMax": "0.68540037",
+      "DurationMax": "1.160033",
       "MediaRefs": [
+       {
+        "Id": "144919740"
+       },
        {
         "Id": "279177834"
        },
@@ -125,6 +137,6 @@
     ]
    }
   ],
-  "FileHash": "{2572F4DF-3077-5367-AB26-86AA2B289FAE}"
+  "FileHash": "{95BF16C6-F553-F008-EE3E-0EAECEC2AA58}"
  }
 }

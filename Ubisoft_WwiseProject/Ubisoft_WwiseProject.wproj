@@ -22,13 +22,13 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjE4MzY1IiBtYXNrPSJSSlpHNDUxOSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjYtMDktMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iMzEiIG5hbWU9IlNvdW5kU2VlZCBBaXIiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjYtMDktMDEiICAvPjxsaWNlbnNlIGlkPSI1NCIgbmFtZT0iU291bmRTZWVkIEdyYWluIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iNiIgbmFtZT0iV3dpc2UgQ29udm9sdXRpb24gUmV2ZXJiIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iNDkiIG5hbWU9Ild3aXNlIFJlZmxlY3QiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjYtMDktMDEiICAvPjxsaWNlbnNlIGlkPSI2MyIgbmFtZT0iTWFzdGVyaW5nIFN1aXRlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iNjQiIG5hbWU9IkltcGFjdGVyIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iMTYiIG5hbWU9Imlab3RvcGUgSHlicmlkIFJldmVyYiIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCwzNCIgZXhwaXJlcz0iMjAyNi0wOS0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjgiIG5hbWU9Ild3aXNlIE1vdGlvbiIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDMsNCwxMCwxMywxNCwzNCIgZXhwaXJlcz0iMjAyNi0wOS0wMSIgIC8+PGxpY2Vuc2UgaWQ9IjEwIiBuYW1lPSJNY0RTUCBCdW5kbGUgKE1MMSwgRnV0ekJveCkiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTMsMTQsMzQiIGV4cGlyZXM9IjIwMjYtMDktMDEiICAvPjxsaWNlbnNlIGlkPSI5IiBuYW1lPSJBdWRpb0Vhc2UgT3V0ZG9vciAmYW1wOyBNb3JlIElSIFBhY2thZ2UiIHR5cGU9IjMiICBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iNDMiIG5hbWU9IkF1cm8tSGVhZHBob25lIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMyw0LDEwLDEzLDE0LDM0IiBleHBpcmVzPSIyMDI2LTA5LTAxIiAgLz48bGljZW5zZSBpZD0iMzciIG5hbWU9IkNyYW5rY2FzZSBBdWRpbyBSRVYiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMiwzLDQsMTAsMTQsMzQiIGV4cGlyZXM9IjIwMjYtMDktMDEiICAvPjxwbHVnaW4gaWQ9IjgzMjMwNzUiIG5hbWU9Ild3aXNlIENvbnZvbHV0aW9uIFJldmVyYiIgbGljZW5zZT0iNiIgLz48cGx1Z2luIGlkPSIxMjE4OTY5OSIgbmFtZT0iTWFzdGVyaW5nIFN1aXRlIiBsaWNlbnNlPSI2MyIgLz48cGx1Z2luIGlkPSIxMjA1ODYyNiIgbmFtZT0iSW1wYWN0ZXIiIGxpY2Vuc2U9IjY0IiAvPjxwbHVnaW4gaWQ9IjMzNTU0NDM5IiBuYW1lPSJXd2lzZSBNb3Rpb24gU2NlUGFkIFJ1bWJsZSIgbGljZW5zZT0iOCIgLz48cGx1Z2luIGlkPSIzMzYxOTk3NSIgbmFtZT0iV3dpc2UgTW90aW9uIFNjZVBhZCBIYXB0aWNzIiBsaWNlbnNlPSI4IiAvPjxwbHVnaW4gaWQ9IjcyMDkzODExIiBuYW1lPSJBdXJvLUhlYWRwaG9uZSIgbGljZW5zZT0iNDMiIC8+PHBsdWdpbiBpZD0iMjcyNjcxNTQiIG5hbWU9IkNyYW5rY2FzZSBBdWRpbyBSRVYiIGxpY2Vuc2U9IjM3IiAvPjxhc3NldCBpZD0iNjU1MzQiIHBsdWdpbj0iMjcyNjcxNTQiIG5hbWU9IlJFViBNb2RlbGVyIFRvb2wiIHR5cGU9IjMiICBleHBpcmVzPSIyMDI2LTA5LTAxIiAvPjxhc3NldCBpZD0iNjU1MzUiIHBsdWdpbj0iMjcyNjcxNTQiIG5hbWU9IkFsbCBlbmdpbmUgbW9kZWxzIiB0eXBlPSIzIiAgZXhwaXJlcz0iMjAyNi0wOS0wMSIgLz48L3Byb2plY3Q+|YUGcQ9bUncVki6wZW5pFKPjUaLhIWIkHJRKDLATXmvHdA1phptujBZs8NRPghK5/1Yrw+plcGZX/0WQYoSvneSksTvcdrjyT8sB1EFcRWG0iy/uAyt4wxhjnScDD1K4/dYhGCAHtraMIL8ACzMIvk8cSSU0INGrtRATmF7KX/KUE9/Tb3wbp9o1Kh2q/zRq7QB1FiWHoLetNxk6XgsQ7MnMkKMHpKwf4/o5d95oo7YZZB+fVujPYpg+2cJG1XHaiIrPqwFBesYiJJug0siFmFLjTZRvrdGpbk78ywLO9I3itXjV9Ql1YTf/1GSkLmlQCsWRNLxFH9+osQPgozFJljw==" />
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True" />
-				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="../../Ubisoft/Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True" /><Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\Ubisoft\Assets\StreamingAssets\Audio\GeneratedSoundBanks" />
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -61,6 +61,10 @@
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2024.1.9|Build=8920|VersionName=v2024.1.9|Config=Release" />
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioFileSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>

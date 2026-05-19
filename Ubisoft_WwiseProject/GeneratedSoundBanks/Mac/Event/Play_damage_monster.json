@@ -1,0 +1,155 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4161725086",
+    "Type": "Event",
+    "GUID": "{4506138D-FDD5-4356-AFC4-972CFF8DD9BE}",
+    "Language": "SFX",
+    "Hash": "{556C8F28-D137-22DD-04D2-89C404D8BBF7}",
+    "ObjectPath": "Play_damage_monster",
+    "ShortName": "Play_damage_monster",
+    "Path": "Event/Play_damage_monster.bnk",
+    "Media": [
+     {
+      "Id": "14817905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-001.wav",
+      "Path": "Media/14817905.wem",
+      "CachePath": "BA/{BA60FCF2-8F2D-320B-E602-2F71E96D2CBE}.wem"
+     },
+     {
+      "Id": "89955488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-002.wav",
+      "Path": "Media/89955488.wem",
+      "CachePath": "8E/{8EF96BBA-D60F-ACBB-CD86-FAB60F3A64E3}.wem"
+     },
+     {
+      "Id": "278532170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-007.wav",
+      "Path": "Media/278532170.wem",
+      "CachePath": "B1/{B1A6CEC8-795D-E1C7-4C28-5898D45102D9}.wem"
+     },
+     {
+      "Id": "288188557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-006.wav",
+      "Path": "Media/288188557.wem",
+      "CachePath": "18/{189A9C13-8D3A-17D4-34C6-A52BDAE95516}.wem"
+     },
+     {
+      "Id": "352049090",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-005.wav",
+      "Path": "Media/352049090.wem",
+      "CachePath": "D0/{D07DFAF2-7119-5700-BA7B-06C227F2DB64}.wem"
+     },
+     {
+      "Id": "537423301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-003.wav",
+      "Path": "Media/537423301.wem",
+      "CachePath": "3F/{3FAFAADA-92D1-086C-F83A-1EFFC814951C}.wem"
+     },
+     {
+      "Id": "648305831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "KS_Huge Beast_1-001-004.wav",
+      "Path": "Media/648305831.wem",
+      "CachePath": "A8/{A8C07DBF-E879-9FAC-FD60-1CF292478952}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "857008625",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Enemies\\Grenadier\\DeathPlayer\\death_monster\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{25618BFD-4880-490F-930E-3E7C7271C8EC}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4161725086",
+      "Name": "Play_damage_monster",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_damage_monster",
+      "GUID": "{4506138D-FDD5-4356-AFC4-972CFF8DD9BE}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0591506",
+      "DurationMax": "2.325179",
+      "MediaRefs": [
+       {
+        "Id": "14817905"
+       },
+       {
+        "Id": "89955488"
+       },
+       {
+        "Id": "278532170"
+       },
+       {
+        "Id": "288188557"
+       },
+       {
+        "Id": "352049090"
+       },
+       {
+        "Id": "537423301"
+       },
+       {
+        "Id": "648305831"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "857008625"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2945072214"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E3CDDB8B-8EC5-10F9-D9BB-D29CF8839848}"
+ }
+}

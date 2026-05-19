@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{FB6D7DE7-C024-4C97-8F56-BF9864FDA73C}",
     "Language": "SFX",
-    "Hash": "{A7BF4E8C-5DEE-E088-4E06-939259FC1DF9}",
+    "Hash": "{790921EA-4A15-16A3-64C5-47F6C6A8EC4C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Enviroment\\Special_objects",
     "ShortName": "Special_objects",
     "Path": "Special_objects.bnk",
     "Media": [
+     {
+      "Id": "226475573",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "forest magic-001-001.wav",
+      "CachePath": "4B/{4B5C183A-13F6-11B5-7D0A-5987352F8B98}.wem"
+     },
      {
       "Id": "232749425",
       "Language": "SFX",
@@ -48,6 +56,14 @@
       "CachePath": "DF/{DF36458E-1E41-424B-606D-88B42BED836B}.wem"
      },
      {
+      "Id": "373676099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473.wav",
+      "CachePath": "81/{8166B004-3BBC-3E2D-AE53-9BCBC1056447}.wem"
+     },
+     {
       "Id": "585781233",
       "Language": "SFX",
       "Streaming": "false",
@@ -56,20 +72,20 @@
       "CachePath": "25/{2508C559-0E20-94E5-817F-DA5287E0040F}.wem"
      },
      {
-      "Id": "730268273",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "huge_door-003.wav",
-      "CachePath": "60/{60239A04-906E-16AF-2303-B9FA60C38F7B}.wem"
-     },
-     {
       "Id": "861643562",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "piano string slide high 2 magic.wav",
       "CachePath": "95/{95F7CF38-AAEF-0A0C-BA46-ECBCEB80F212}.wem"
+     },
+     {
+      "Id": "949671722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fight, Grab, Grapple, Wrestle, Contact Combat SND117403.wav",
+      "CachePath": "D2/{D270D674-44F2-BEF7-788A-26C6FE65D4A2}.wem"
      },
      {
       "Id": "975828155",
@@ -99,6 +115,14 @@
        "LibId": "7733251"
       },
       {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
        "Id": "3354577677",
        "Name": "Fast_LF_Tremolo",
        "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo",
@@ -123,9 +147,12 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Huge_door",
       "GUID": "{04E4D4DC-4115-4E71-90D3-472CF4FC54C9}",
       "DurationType": "OneShot",
-      "DurationMin": "8.931601",
-      "DurationMax": "8.931601",
+      "DurationMin": "8.647756",
+      "DurationMax": "8.647756",
       "MediaRefs": [
+       {
+        "Id": "226475573"
+       },
        {
         "Id": "232749425"
        },
@@ -133,24 +160,23 @@
         "Id": "335733385"
        },
        {
-        "Id": "585781233"
-       },
-       {
-        "Id": "730268273"
-       },
-       {
-        "Id": "861643562"
-       },
-       {
         "Id": "975828155"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3216246379"
+        }
+       ]
+      }
      },
      {
       "Id": "206572583",
       "Name": "Play_magic",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_magic",
       "GUID": "{49BEC46D-81EF-45C3-9901-9BBBA036875E}",
+      "MaxAttenuation": "25",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -198,14 +224,21 @@
       "Name": "Stop_staff_pedestal_magic",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_staff_pedestal_magic",
       "GUID": "{EEE5E980-9A5D-4F32-86C8-4CF7F467C592}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "5.0257235",
+      "DurationMax": "5.0257235",
+      "MediaRefs": [
+       {
+        "Id": "373676099"
+       },
+       {
+        "Id": "949671722"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{C8421ABC-3AB6-2896-AC78-480F6DB90F4F}"
+  "FileHash": "{8ABE043F-4173-E3C6-92A8-CE7F16A829DE}"
  }
 }

@@ -34,6 +34,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{27552812-BE08-42C0-A2B4-86DF761DA0DD}" ShortID="807613068">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="random foley" ID="{BC8A7545-45C8-4611-AFBE-E7B1B5267E4C}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_FTS_01" ID="{A8ACFADB-A8C9-43CB-95F7-EA7D7AD3D4A8}">
@@ -224,6 +231,20 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4A91DC8B-4FE2-470B-B451-12629E18F52F}" ShortID="288675124">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Magic, Shimmer, Spell, Pad, Creepy, Scary, Idle, Complex 05 SND92473_01" ID="{C3C93BB0-E1F6-4BE1-92AB-4CF60214F97D}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3DF699E-3B68-425B-B68D-6F0B9FF9F575}" ShortID="1071057930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fight, Grab, Grapple, Wrestle, Contact Combat SND117403" ID="{DB3D4FB3-4E37-4B24-9CA2-981348D268D1}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_cave" ID="{86B0A5A7-A9F4-4A27-85A0-B52ED38F354F}">
@@ -279,6 +300,75 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BUTTON" ID="{B740CFE5-F268-419E-8B80-4AB7C8E7E68F}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_magic_blend" ID="{80E9588E-21D0-4B7E-A7DF-074E97B33B11}">
+					<ChildrenList>
+						<Action Name="" ID="{6554744B-5826-4F14-8A1B-4B1B36391C40}" ShortID="209290465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="magic_blend" ID="{C2897908-08CF-4C5F-BB9B-5DA0ED12B97C}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Splash" ID="{31B19E30-3BBC-4E69-A431-0C594D0130E6}">
+					<ChildrenList>
+						<Action Name="" ID="{AE0149B5-2B3C-4FEF-B16C-1160F4EBFE22}" ShortID="666503044">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Splash" ID="{9CEBD362-E048-4BB9-BED2-6E4060906CE4}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_damage_monster" ID="{4506138D-FDD5-4356-AFC4-972CFF8DD9BE}">
+					<ChildrenList>
+						<Action Name="" ID="{5E6B4611-B8FA-443B-B6BD-02475DA13FC2}" ShortID="249829290">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death_monster" ID="{CDE2D4F3-FAA0-4110-B6AF-8E5596EFC7C8}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_death_monster" ID="{783F94AC-2322-458F-AE53-AE8A30D949EA}">
+					<ChildrenList>
+						<Action Name="" ID="{18C595C8-5348-464E-ADD7-392D00488B45}" ShortID="1044919028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="death_monster" ID="{CDE2D4F3-FAA0-4110-B6AF-8E5596EFC7C8}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_damage_monster_01" ID="{3CA17ED1-3C25-4B57-ACE5-3655E525E41B}">
+					<ChildrenList>
+						<Action Name="" ID="{4D2588C2-F252-468C-A4EF-B7856325BA20}" ShortID="273665638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="damage_monster" ID="{19CCF1CF-9C1C-4456-9601-2F7E6C7FFD40}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_random_foley" ID="{B8CB7F73-C066-4E9E-B937-5C6CD07092D4}">
+					<ChildrenList>
+						<Action Name="" ID="{6E1518C4-8C8F-4EC7-8BDB-6BCEBB9269AC}" ShortID="717891236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="random foley" ID="{BC8A7545-45C8-4611-AFBE-E7B1B5267E4C}" WorkUnitID="{95B6B208-F2E5-4782-AC7F-AEB439BAFB83}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

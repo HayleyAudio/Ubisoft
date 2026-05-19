@@ -507,6 +507,10 @@ namespace Gamekit3D
                     
                     // Also store the current walking surface so the correct audio is played.
                     Renderer groundRenderer = hit.collider.GetComponentInChildren<Renderer>();
+                    if (groundRenderer == null)
+                    {
+                        groundRenderer = hit.collider.GetComponentInParent<Renderer>();
+                    }
                     m_CurrentWalkingSurface = groundRenderer ? groundRenderer.sharedMaterial : null;
                 }
                 else

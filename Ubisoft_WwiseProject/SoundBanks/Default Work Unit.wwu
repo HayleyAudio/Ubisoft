@@ -97,6 +97,8 @@
 								<ObjectRef Name="Play_Staff_Swing" ID="{9A7431B0-5D53-4AA3-8DC7-ACC9BFB32D7B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Play_Staff_Hit" ID="{8361F44F-CE66-4AAC-999B-13DD398AB36B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Play_attack" ID="{D535306D-19C0-4D48-88CA-4843547664D5}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_Splash" ID="{31B19E30-3BBC-4E69-A431-0C594D0130E6}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_random_foley" ID="{B8CB7F73-C066-4E9E-B937-5C6CD07092D4}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
 								<ObjectRef Name="Play_jump" ID="{5E02F32D-F203-4F22-BE52-E67E4D0355AA}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
@@ -112,6 +114,8 @@
 						<SoundBank Name="Grenadier" ID="{01066569-E77E-4572-9D27-68041A1C1F54}">
 							<ObjectInclusionList>
 								<ObjectRef Name="Play_Footstep_mechanics_blend" ID="{D39A550C-63F9-4260-A0B8-1FC2FB3EE36F}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_death_monster" ID="{783F94AC-2322-458F-AE53-AE8A30D949EA}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
+								<ObjectRef Name="Play_damage_monster_01" ID="{3CA17ED1-3C25-4B57-ACE5-3655E525E41B}" WorkUnitID="{C25AAA66-E60B-4136-8807-BB09541D3038}" Origin="Manual" Filter="7"/>
 							</ObjectInclusionList>
 							<ObjectExclusionList/>
 							<GameSyncExclusionList/>

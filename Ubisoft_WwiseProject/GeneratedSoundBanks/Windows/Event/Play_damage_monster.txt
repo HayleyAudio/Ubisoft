@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4161725086	Play_damage_monster			\Default Work Unit\Play_damage_monster	
+
+Effect plug-ins	ID	Name	Type				Notes
+	857008625	Time Stretch (Custom)	Wwise Time Stretch			
+	2945072214	My_Closet	Wwise RoomVerb			
+

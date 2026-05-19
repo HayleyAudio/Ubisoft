@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{01066569-E77E-4572-9D27-68041A1C1F54}",
     "Language": "SFX",
-    "Hash": "{57147C91-8D2B-75B6-A1DB-D62506E04671}",
+    "Hash": "{BE3BB617-373E-7112-A7C9-800990BE35DC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Characters\\Grenadier",
     "ShortName": "Grenadier",
     "Path": "Grenadier.bnk",
     "Media": [
+     {
+      "Id": "14817905",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-001.wav",
+      "CachePath": "BA/{BA60FCF2-8F2D-320B-E602-2F71E96D2CBE}.wem"
+     },
      {
       "Id": "30087436",
       "Language": "SFX",
@@ -32,12 +40,36 @@
       "CachePath": "DB/{DBBF66F2-5F12-A0C6-007D-15D29BF01001}.wem"
      },
      {
+      "Id": "89955488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-002.wav",
+      "CachePath": "8E/{8EF96BBA-D60F-ACBB-CD86-FAB60F3A64E3}.wem"
+     },
+     {
       "Id": "113740396",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Metal, Impact, Metal Object, Strike Metal Garage Wall x5 SND29955 3.wav",
       "CachePath": "70/{70752234-DB6D-402F-5CCA-B26F0248DFB7}.wem"
+     },
+     {
+      "Id": "278532170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-007.wav",
+      "CachePath": "B1/{B1A6CEC8-795D-E1C7-4C28-5898D45102D9}.wem"
+     },
+     {
+      "Id": "288188557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-006.wav",
+      "CachePath": "18/{189A9C13-8D3A-17D4-34C6-A52BDAE95516}.wem"
      },
      {
       "Id": "321806983",
@@ -48,6 +80,14 @@
       "CachePath": "A5/{A5FB9F79-13E9-0C52-1F1B-C60E4EFC0B1A}.wem"
      },
      {
+      "Id": "352049090",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-005.wav",
+      "CachePath": "D0/{D07DFAF2-7119-5700-BA7B-06C227F2DB64}.wem"
+     },
+     {
       "Id": "375350170",
       "Language": "SFX",
       "Streaming": "false",
@@ -56,12 +96,28 @@
       "CachePath": "65/{6596CE29-EABF-087F-E12A-BFEC3AC377CF}.wem"
      },
      {
+      "Id": "537423301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-003.wav",
+      "CachePath": "3F/{3FAFAADA-92D1-086C-F83A-1EFFC814951C}.wem"
+     },
+     {
       "Id": "562368916",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Mechanical, Gears, Mechanical Texture, Air Release, Burst, Hiss 01 SND117048 4.wav",
       "CachePath": "C4/{C412770B-4B4E-9DD3-AA79-BE225E89A9FC}.wem"
+     },
+     {
+      "Id": "648305831",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "KS_Huge Beast_1-001-004.wav",
+      "CachePath": "A8/{A8C07DBF-E879-9FAC-FD60-1CF292478952}.wem"
      },
      {
       "Id": "908659216",
@@ -89,6 +145,16 @@
      }
     ],
     "Plugins": {
+     "Custom": [
+      {
+       "Id": "857008625",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Enemies\\Grenadier\\DeathPlayer\\death_monster\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{25618BFD-4880-490F-930E-3E7C7271C8EC}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ],
      "ShareSets": [
       {
        "Id": "535667444",
@@ -97,10 +163,96 @@
        "GUID": "{1969D30F-C165-45C0-B290-DE3ED07A7AA3}",
        "LibName": "Wwise Matrix Reverb",
        "LibId": "7536643"
+      },
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
       }
      ]
     },
     "Events": [
+     {
+      "Id": "623845996",
+      "Name": "Play_damage_monster_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_damage_monster_01",
+      "GUID": "{3CA17ED1-3C25-4B57-ACE5-3655E525E41B}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7305624",
+      "DurationMax": "3.799146",
+      "MediaRefs": [
+       {
+        "Id": "14817905"
+       },
+       {
+        "Id": "89955488"
+       },
+       {
+        "Id": "278532170"
+       },
+       {
+        "Id": "288188557"
+       },
+       {
+        "Id": "352049090"
+       },
+       {
+        "Id": "537423301"
+       },
+       {
+        "Id": "648305831"
+       }
+      ]
+     },
+     {
+      "Id": "1295842767",
+      "Name": "Play_death_monster",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_death_monster",
+      "GUID": "{783F94AC-2322-458F-AE53-AE8A30D949EA}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0591506",
+      "DurationMax": "2.325179",
+      "MediaRefs": [
+       {
+        "Id": "14817905"
+       },
+       {
+        "Id": "89955488"
+       },
+       {
+        "Id": "278532170"
+       },
+       {
+        "Id": "288188557"
+       },
+       {
+        "Id": "352049090"
+       },
+       {
+        "Id": "537423301"
+       },
+       {
+        "Id": "648305831"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "857008625"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "2945072214"
+        }
+       ]
+      }
+     },
      {
       "Id": "3737078160",
       "Name": "Play_Footstep_mechanics_blend",
@@ -150,6 +302,6 @@
     ]
    }
   ],
-  "FileHash": "{7C9F1613-29D7-2E06-7317-6EDB66586423}"
+  "FileHash": "{3A762897-3FA6-E787-B0CE-392D70C77B1D}"
  }
 }

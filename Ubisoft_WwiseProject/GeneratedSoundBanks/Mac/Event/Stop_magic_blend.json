@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "74518965",
+    "Type": "Event",
+    "GUID": "{80E9588E-21D0-4B7E-A7DF-074E97B33B11}",
+    "Language": "SFX",
+    "Hash": "{399293B0-A662-D785-3B4A-D4461A3A53AE}",
+    "ObjectPath": "Stop_magic_blend",
+    "ShortName": "Stop_magic_blend",
+    "Path": "Event/Stop_magic_blend.bnk",
+    "Events": [
+     {
+      "Id": "74518965",
+      "Name": "Stop_magic_blend",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_magic_blend",
+      "GUID": "{80E9588E-21D0-4B7E-A7DF-074E97B33B11}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D5545207-42D3-66AB-3946-3CA524B4E768}"
+ }
+}
